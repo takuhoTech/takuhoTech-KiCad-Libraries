@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "Converter_DCDC")(type "KiCad")(uri "${KICAD_USER_LIB_DIR}\Lib\Converter_DCDC\Converter_DCDC.pretty")(options "")(descr ""))
+  (lib (name "RF_LNA")(type "KiCad")(uri "${KICAD_USER_LIB_DIR}\Lib\RF_LNA\RF_LNA.pretty")(options "")(descr ""))
+  (lib (name "RF_Module")(type "KiCad")(uri "${KICAD_USER_LIB_DIR}\Lib\RF_Module\RF_Module.pretty")(options "")(descr ""))
+)

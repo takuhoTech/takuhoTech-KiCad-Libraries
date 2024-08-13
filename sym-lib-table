@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Converter_DCDC")(type "KiCad")(uri "${KICAD_USER_LIB_DIR}\Lib\Converter_DCDC\Converter_DCDC.kicad_sym")(options "")(descr ""))
+)
