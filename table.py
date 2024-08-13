@@ -10,7 +10,7 @@ list_path_fp = []
 list_name_fp = []
 for tmp in glob.glob('./*/*/*.pretty'):
   list_path_fp.append(tmp)
-  list_name_fp.append(tmp.split('\\')[-1][:-7])#パスを\\で分割し、分割した最後の部分(prettyフォルダ)を取り出し、.prettyをトリミングしてパーツ名とする。
+  list_name_fp.append(tmp.split('\\')[-1][:-7])#パスを\で分割し、分割した最後の部分(prettyフォルダ)を取り出し、.prettyをトリミングしてパーツ名とする。
 
 list_path_sym = []
 list_name_sym = []
