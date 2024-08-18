@@ -1,0 +1,202 @@
+(footprint "SMA_Molex_0732512440_Female"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.54 -5.08 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a6f45cff-e245-4d02-ad6c-5d6547131adf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "0732512440"
+		(at 5.08 5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "52c2d359-53d5-4f54-8f7a-fe0f473e8d8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7fd99dcb-1fc6-4d78-bc7d-557a24bfbb88")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16249f71-3f1f-462b-83aa-9058d3eeb491")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db26034e-6ed6-44f8-abb6-be3636358675")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 -3.175)
+		(end -1.66 -3.175)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "8bd6021a-7c8d-4d96-a1c5-d8382b0dff4a")
+	)
+	(fp_line
+		(start 0 3.175)
+		(end -1.66 3.175)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "463eb349-9c87-451a-8135-e0390f4fdf64")
+	)
+	(fp_line
+		(start 0 3.175)
+		(end 0 -3.175)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5e24e6e5-7a69-4ef0-a3e0-ab59238638f7")
+	)
+	(fp_line
+		(start -9.53 -4.5)
+		(end -9.53 4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c468d958-79af-4398-b953-1d3b190eb798")
+	)
+	(fp_line
+		(start 0 -4.5)
+		(end -9.53 -4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d6e35c08-3dfb-4981-b6f7-32ddf12db10e")
+	)
+	(fp_line
+		(start 0 4.5)
+		(end -9.53 4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "533db375-15fb-461a-b9cb-52c6397947c0")
+	)
+	(fp_line
+		(start 5 -4.5)
+		(end 0 -4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "95c4b61f-b7eb-41d7-b6ad-2b855e2221e8")
+	)
+	(fp_line
+		(start 5 -4.5)
+		(end 5 4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1a0fb064-3dbb-4b7c-9832-e3f2e48782ef")
+	)
+	(fp_line
+		(start 5 4.5)
+		(end 0 4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0b2c1f2e-ae9e-491c-a71b-b50cfa6e92fd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 -5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "958f9117-d178-43b7-ae58-978a6088136b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.185 0)
+		(size 1.97 0.61)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "076c25e9-864b-482a-8f85-d81ad54f14c4")
+	)
+	(pad "2" thru_hole circle
+		(at 3.31 -2.77)
+		(size 2.52 2.52)
+		(drill 1.52)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c98e2861-a9dd-4d32-89e7-f2dbda8ab5c5")
+	)
+	(pad "2" thru_hole circle
+		(at 3.31 2.77)
+		(size 2.52 2.52)
+		(drill 1.52)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c98d46d7-7371-4c27-96db-10a42ca76dff")
+	)
+	(model "${KICAD_USER_LIB_DIR}/Lib/Connector_Coaxial_extlib/SMA_Molex_0732512440_Female.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

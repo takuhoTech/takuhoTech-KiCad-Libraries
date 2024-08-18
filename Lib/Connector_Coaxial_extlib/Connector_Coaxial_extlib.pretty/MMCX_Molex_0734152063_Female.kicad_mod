@@ -1,0 +1,299 @@
+(footprint "MMCX_Molex_0734152063_Female"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "0734152063")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 0 -2.54 0)
+		(layer "F.SilkS")
+		(uuid "4c134edd-ab0c-4b4e-8c5b-18c5db0f280e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "0734152063"
+		(at 0 2.54 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8c27b869-f828-4970-89ec-11bc2b2a962e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d0a4972-1554-4bf8-9796-ed73f349cdf1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2bb82f8f-10f2-4ef1-ad25-e47862813f68")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d869038-d9b6-4f97-be3a-98891361441f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 0.445 0)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "19d94d19-e4e0-4763-90f1-8762c8a375b6")
+	)
+	(fp_line
+		(start -1.725 -0.5)
+		(end -1.725 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "333fa455-5103-4bc0-b928-7f73dfeb1b67")
+	)
+	(fp_line
+		(start -0.5 -1.725)
+		(end 0.5 -1.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "97ee6dad-c06c-4910-8bf8-06bf991f291b")
+	)
+	(fp_line
+		(start 1.725 -0.5)
+		(end 1.725 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65f3e4db-0937-4bf2-b958-3b2cb82a702c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.445 0)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "c91a37a1-c179-407f-83e0-3dfed4dee65a")
+	)
+	(fp_line
+		(start -2.032 -2.032)
+		(end 2.032 -2.032)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4cb44e34-c2fc-4e00-a02a-0ecf983ad6ac")
+	)
+	(fp_line
+		(start -2.032 2.032)
+		(end -2.032 -2.032)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "140d9b6e-7d7f-4be2-9bfb-58337dd4034b")
+	)
+	(fp_line
+		(start 2.032 -2.032)
+		(end 2.032 2.032)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2f4482e8-9693-4967-bf86-870083baa0e7")
+	)
+	(fp_line
+		(start 2.032 2.032)
+		(end -2.032 2.032)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4c42ac08-9310-4a30-b743-aceda7338fee")
+	)
+	(fp_line
+		(start -1.725 -1.725)
+		(end 1.725 -1.725)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e68b68d8-1635-4bac-ab60-8361ec0be599")
+	)
+	(fp_line
+		(start -1.725 1.725)
+		(end -1.725 -1.725)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "86af6817-439e-4615-80d3-193bac79e592")
+	)
+	(fp_line
+		(start 1.725 -1.725)
+		(end 1.725 1.725)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "da57d8be-06b5-4abe-a646-6339aa76542a")
+	)
+	(fp_line
+		(start 1.725 1.725)
+		(end -1.725 1.725)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2d1efbe7-3093-4480-9993-fd02a7bf1d49")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.54 0)
+		(layer "F.Fab")
+		(uuid "6fbf0845-ecb9-49a4-9186-e5c242f7b59f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0 90)
+		(size 1.47 1.47)
+		(layers "F.Cu")
+		(uuid "01ee4549-af2a-4291-b86b-b889473c0657")
+	)
+	(pad "2" smd roundrect
+		(at -1.32 -1.32 90)
+		(size 0.94 0.94)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.1382978723)
+		(chamfer bottom_left)
+		(uuid "52ec2e20-8452-4f46-b6b9-e1a4bd53482f")
+	)
+	(pad "2" smd roundrect
+		(at -1.32 1.32 90)
+		(size 0.94 0.94)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.1382978723)
+		(chamfer bottom_right)
+		(uuid "2df586f0-e72a-408a-b86a-841d5857fbb8")
+	)
+	(pad "2" smd roundrect
+		(at 1.32 -1.32 90)
+		(size 0.94 0.94)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.1382978723)
+		(chamfer top_left)
+		(uuid "84695ad7-b531-4073-8283-330f5edd4081")
+	)
+	(pad "2" smd roundrect
+		(at 1.32 1.32 90)
+		(size 0.94 0.94)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.1382978723)
+		(chamfer top_right)
+		(uuid "509d70e2-20df-4aed-826e-3cc222412e49")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "Dwgs.User")
+		(uuid "8323edf3-7320-460c-8e90-12e19388d403")
+		(hatch edge 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy 1.299947 0) (xy 1.280198 -0.225733) (xy 1.221551 -0.444608) (xy 1.125787 -0.649973) (xy 0.995817 -0.83559)
+				(xy 0.83559 -0.995817) (xy 0.649974 -1.125787) (xy 0.444608 -1.221551) (xy 0.225733 -1.280198) (xy 0 -1.299947)
+				(xy -0.225733 -1.280198) (xy -0.444608 -1.221551) (xy -0.649973 -1.125787) (xy -0.83559 -0.995817)
+				(xy -0.995817 -0.83559) (xy -1.125787 -0.649973) (xy -1.221551 -0.444608) (xy -1.280198 -0.225733)
+				(xy -1.299947 0) (xy -1.280198 0.225733) (xy -1.221551 0.444608) (xy -1.125787 0.649973) (xy -0.995817 0.83559)
+				(xy -0.83559 0.995817) (xy -0.649974 1.125787) (xy -0.444608 1.221551) (xy -0.225733 1.280198) (xy 0 1.299947)
+				(xy 0.225733 1.280198) (xy 0.444608 1.221551) (xy 0.649974 1.125787) (xy 0.83559 0.995817) (xy 0.995817 0.83559)
+				(xy 1.125787 0.649973) (xy 1.221551 0.444608) (xy 1.280198 0.225733)
+			)
+		)
+	)
+	(model "${KICAD_USER_LIB_DIR}/Lib/Connector_Coaxial_extlib/MMCX_Molex_0734152063_Female.stp"
+		(offset
+			(xyz 0 0 5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
