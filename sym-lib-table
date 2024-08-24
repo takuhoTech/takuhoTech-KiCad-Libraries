@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name "Converter_DCDC_extlib")(type "KiCad")(uri "${KICAD_USER_LIB_DIR}\Lib\Converter_DCDC_extlib\Converter_DCDC_extlib.kicad_sym")(options "")(descr ""))
+  (lib (name "RF_Antenna_extlib")(type "KiCad")(uri "${KICAD_USER_LIB_DIR}\Lib\RF_Antenna_extlib\RF_Antenna_extlib.kicad_sym")(options "")(descr ""))
   (lib (name "RF_LNA_extlib")(type "KiCad")(uri "${KICAD_USER_LIB_DIR}\Lib\RF_LNA_extlib\RF_LNA_extlib.kicad_sym")(options "")(descr ""))
 )

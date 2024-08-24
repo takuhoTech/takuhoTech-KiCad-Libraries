@@ -2,5 +2,6 @@
   (lib (name "Button_Switch_THT_extlib")(type "KiCad")(uri "${KICAD_USER_LIB_DIR}\Lib\Button_Switch_THT_extlib\Button_Switch_THT_extlib.pretty")(options "")(descr ""))
   (lib (name "Connector_Coaxial_extlib")(type "KiCad")(uri "${KICAD_USER_LIB_DIR}\Lib\Connector_Coaxial_extlib\Connector_Coaxial_extlib.pretty")(options "")(descr ""))
   (lib (name "Converter_DCDC_extlib")(type "KiCad")(uri "${KICAD_USER_LIB_DIR}\Lib\Converter_DCDC_extlib\Converter_DCDC_extlib.pretty")(options "")(descr ""))
+  (lib (name "RF_Antenna_extlib")(type "KiCad")(uri "${KICAD_USER_LIB_DIR}\Lib\RF_Antenna_extlib\RF_Antenna_extlib.pretty")(options "")(descr ""))
   (lib (name "RF_LNA_extlib")(type "KiCad")(uri "${KICAD_USER_LIB_DIR}\Lib\RF_LNA_extlib\RF_LNA_extlib.pretty")(options "")(descr ""))
 )

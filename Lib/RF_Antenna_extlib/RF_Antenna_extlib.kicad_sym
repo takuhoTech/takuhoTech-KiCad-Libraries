@@ -1,0 +1,281 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "TAOGLAS_GPDF6010.A"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "ANT"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+			)
+		)
+		(property "Value" "GPDF6010.A"
+			(at -1.27 -3.81 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Taoglas_GPDF6010.A_GNSS:TAOGLAS_GPDF6010.A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Passive All-band High Precision GNSS Stacked Dual Pin Dual Feed Patch Antenna"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLibStatus" "Created"
+			(at -1.27 -6.35 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet_1" "https://www.taoglas.com/product/gpdf6010-a-all-band-high-precision-gnss-stacked-patch-antenna/"
+			(at -1.27 -6.35 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FootprintLibStatus" "Created"
+			(at -1.27 -6.35 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Taoglas"
+			(at -1.27 -6.35 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MFGPN" "GPDF6010.A"
+			(at -1.27 -6.35 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "RoHS Compliant"
+			(at -1.27 -6.35 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Temp_High" "+85C"
+			(at -1.27 -6.35 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Temp_Low" "-40C"
+			(at -1.27 -6.35 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Version" "2.0"
+			(at -1.27 -6.35 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "*TAOGLAS_GPDF6010.A*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TAOGLAS_GPDF6010.A_1_0"
+			(polyline
+				(pts
+					(xy 4.5 10) (xy 4.5 15) (xy 2 17.5) (xy 7 17.5) (xy 4.5 15) (xy 4.5 17.5)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.5 10) (xy 15.5 15) (xy 13 17.5) (xy 18 17.5) (xy 15.5 15) (xy 15.5 17.5)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 20 10)
+				(end 0 0)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 2.794 -5.08 90)
+				(length 5.08)
+				(name "HB-1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.842 -5.08 90)
+				(length 5.08)
+				(name "HB-2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 9.906 -5.08 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -5.08 90)
+				(length 5.08)
+				(name "LB-1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 16.764 -5.08 90)
+				(length 5.08)
+				(name "LB-2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+)
