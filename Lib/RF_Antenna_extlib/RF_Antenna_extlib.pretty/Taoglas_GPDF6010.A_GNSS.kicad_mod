@@ -3,20 +3,22 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
+	(descr "Passive All-band High Precision GNSS Stacked Dual Pin Dual Feed Patch Antenna")
+	(tags "patch antenna")
 	(property "Reference" "REF**"
-		(at 0 -25 0)
+		(at 0 -22.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "02914663-e9d7-473c-9462-895643712796")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
 	(property "Value" "GPDF6010.A"
-		(at 0 -20 0)
+		(at 0 -17.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "d9742ba6-0522-4466-9db1-23712e0709a9")
@@ -35,20 +37,20 @@
 		(uuid "53a7e8cd-9a71-4cb6-b04c-e3de4258c03b")
 		(effects
 			(font
-				(size 1 1)
+				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
 	)
-	(property "Datasheet" ""
-		(at 0 0 0)
+	(property "Datasheet" "https://www.taoglas.com/datasheets/GPDF6010.A.pdf"
+		(at 0 -7.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "e6374f82-4b6b-4bc7-8d67-1c9d47119271")
 		(effects
 			(font
-				(size 1 1)
+				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -61,7 +63,7 @@
 		(uuid "3cff4e0e-8371-4a53-a1a1-455c6bd72e00")
 		(effects
 			(font
-				(size 1 1)
+				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -329,124 +331,126 @@
 		(uuid "e6ee771f-fe20-452a-9bc0-eb1217f219c4")
 	)
 	(fp_text user "LB-1"
-		(at 10.5 0.5 0)
+		(at 14 0 0)
 		(unlocked yes)
 		(layer "Dwgs.User")
 		(uuid "00c8aacf-99a8-4e1e-abcc-12ac7ffe382c")
 		(effects
 			(font
-				(size 1 0.9)
-				(thickness 0.125)
+				(size 1 1)
+				(thickness 0.15)
 			)
-			(justify right bottom)
+			(justify left)
 		)
 	)
 	(fp_text user "Bottom layer copper cuttout OD = 3.5mm"
-		(at -12.514721 17.572625 0)
+		(at 0 17.5 0)
 		(unlocked yes)
 		(layer "Dwgs.User")
+		(hide yes)
 		(uuid "132b3f42-f9eb-4071-ab96-7e39b74ae5d3")
 		(effects
 			(font
-				(size 1 0.9)
-				(thickness 0.125)
+				(size 1 1)
+				(thickness 0.15)
 			)
-			(justify left bottom)
 		)
 	)
 	(fp_text user "GND"
-		(at 3.5 0.5 0)
+		(at 3.5 0 0)
 		(unlocked yes)
 		(layer "Dwgs.User")
 		(uuid "1a0573d9-99d3-421d-bc58-fe2e9ad87f6a")
 		(effects
 			(font
-				(size 1 0.9)
-				(thickness 0.125)
+				(size 1 1)
+				(thickness 0.15)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 	)
 	(fp_text user "Place 4.7pF capacitor here->"
-		(at -9.085147 14.954111 45)
+		(at -3 8.5 45)
 		(unlocked yes)
 		(layer "Dwgs.User")
+		(hide yes)
 		(uuid "1a225e5d-4707-472f-8a66-eabb0c01c26e")
 		(effects
 			(font
-				(size 0.499999 0.449999)
+				(size 0.5 0.45)
 				(thickness 0.062499)
 			)
-			(justify left bottom)
+			(justify right)
 		)
 	)
 	(fp_text user "HB-1"
-		(at -7.25 0.5 0)
+		(at -7.25 0 0)
 		(unlocked yes)
 		(layer "Dwgs.User")
 		(uuid "41ee8e39-4a04-4a0e-ad9d-751a4cd2c49a")
 		(effects
 			(font
-				(size 1 0.9)
-				(thickness 0.125)
+				(size 1 1)
+				(thickness 0.15)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 	)
 	(fp_text user "Place 4.7pF capacitor here->"
-		(at -14.611816 9.507444 45)
+		(at -8.5 3 45)
 		(unlocked yes)
 		(layer "Dwgs.User")
+		(hide yes)
 		(uuid "479b66b3-0966-4b95-8331-fc61354bd06b")
 		(effects
 			(font
-				(size 0.499999 0.449999)
+				(size 0.5 0.45)
 				(thickness 0.062499)
 			)
-			(justify left bottom)
+			(justify right)
 		)
 	)
 	(fp_text user "All Other layers copper cuttout OD = 3mm"
-		(at -12.889382 19.291354 0)
+		(at 0 20 0)
 		(unlocked yes)
 		(layer "Dwgs.User")
+		(hide yes)
 		(uuid "5624bd46-136e-4e35-a700-c4d8c3cca6aa")
 		(effects
 			(font
-				(size 1 0.9)
-				(thickness 0.125)
+				(size 1 1)
+				(thickness 0.15)
 			)
-			(justify left bottom)
 		)
 	)
 	(fp_text user "HB-2"
-		(at -1.75 6 0)
+		(at -1.75 5.5 0)
 		(unlocked yes)
 		(layer "Dwgs.User")
 		(uuid "8bd30f2b-f763-4467-9f9c-b54206b5235a")
 		(effects
 			(font
-				(size 1 0.9)
-				(thickness 0.125)
+				(size 1 1)
+				(thickness 0.15)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 	)
 	(fp_text user "LB-2"
-		(at -1.75 -11.75 0)
+		(at 1.75 -12.25 0)
 		(unlocked yes)
 		(layer "Dwgs.User")
 		(uuid "b40cb936-c846-4251-aee2-b211e90b1785")
 		(effects
 			(font
-				(size 1 0.9)
-				(thickness 0.125)
+				(size 1 1)
+				(thickness 0.15)
 			)
-			(justify right bottom)
+			(justify left)
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -22.5 0)
+		(at 0 -20 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "26d9c74a-d7ec-44be-a7f7-2c37f61a6d64")

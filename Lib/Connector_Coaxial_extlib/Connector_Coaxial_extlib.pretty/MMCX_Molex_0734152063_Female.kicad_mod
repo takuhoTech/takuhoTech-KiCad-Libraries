@@ -3,10 +3,9 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "0734152063")
 	(tags "Connector")
 	(property "Reference" "J**"
-		(at 0 -2.54 0)
+		(at 0 -5 0)
 		(layer "F.SilkS")
 		(uuid "4c134edd-ab0c-4b4e-8c5b-18c5db0f280e")
 		(effects
@@ -17,9 +16,8 @@
 		)
 	)
 	(property "Value" "0734152063"
-		(at 0 2.54 0)
-		(layer "F.SilkS")
-		(hide yes)
+		(at 0 3 0)
+		(layer "F.Fab")
 		(uuid "8c27b869-f828-4970-89ec-11bc2b2a962e")
 		(effects
 			(font
@@ -198,7 +196,7 @@
 		(uuid "2d1efbe7-3093-4480-9993-fd02a7bf1d49")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -2.54 0)
+		(at 0 -3 0)
 		(layer "F.Fab")
 		(uuid "6fbf0845-ecb9-49a4-9186-e5c242f7b59f")
 		(effects

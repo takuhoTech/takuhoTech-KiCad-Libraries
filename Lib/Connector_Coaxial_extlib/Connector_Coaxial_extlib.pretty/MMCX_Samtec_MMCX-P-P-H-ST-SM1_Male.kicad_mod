@@ -3,10 +3,9 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "0734152063")
 	(tags "Connector")
 	(property "Reference" "J**"
-		(at 0 -3.556 0)
+		(at 0 -6 0)
 		(layer "F.SilkS")
 		(uuid "4c134edd-ab0c-4b4e-8c5b-18c5db0f280e")
 		(effects
@@ -17,9 +16,8 @@
 		)
 	)
 	(property "Value" "MMCX-P-P-H-ST-SM1"
-		(at 0 3.556 0)
-		(layer "F.SilkS")
-		(hide yes)
+		(at 0 4 0)
+		(layer "F.Fab")
 		(uuid "8c27b869-f828-4970-89ec-11bc2b2a962e")
 		(effects
 			(font
@@ -253,7 +251,7 @@
 		(uuid "e21648c3-d781-4d08-bc04-6b0a409656b5")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -3.556 0)
+		(at 0 -4 0)
 		(layer "F.Fab")
 		(uuid "6fbf0845-ecb9-49a4-9186-e5c242f7b59f")
 		(effects

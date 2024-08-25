@@ -3,9 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(tags "LTM4693")
 	(property "Reference" "REF**"
-		(at 0 -3.175 0)
+		(at 0 -5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "e2682cc7-c8e9-4208-aa69-877bf899b25e")
@@ -17,7 +16,7 @@
 		)
 	)
 	(property "Value" "LTM4693"
-		(at 0 3.175 0)
+		(at 0 3 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "878fb0b1-50e3-42a9-be46-8c72330b3f3c")
@@ -216,7 +215,7 @@
 		(uuid "273d7c9b-d406-4d02-9f3a-b0a67e0825f6")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -3.175 0)
+		(at 0 -3 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "0d7089dd-2e44-4c2b-bc3e-816d703b27c1")

@@ -1,0 +1,157 @@
+(footprint "Taoglas_GGBLA.125.A_GNSS"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Low Profile, Small Footprint Embedded Loop Antenna")
+	(tags "loop antenna")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "7d2618d8-32dd-4174-ae90-fdbc0ebf052b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "GGBLA.125.A"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "dabc082f-ee49-4109-9f33-bf7be94a5e9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef1a99a7-30b0-4750-a69b-de792d6127e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.taoglas.com/datasheets/GGBLA.125.A.pdf"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9748989a-8cb8-4107-bd25-b0f24c3dea7c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53a18b47-ff49-43fd-bc3a-f3c5f4fb4758")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5 1.8)
+		(end 5 1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b8beb778-37b2-4fad-84e8-1df61c1db456")
+	)
+	(fp_line
+		(start -5 -1.6)
+		(end 5 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "05a0e013-5cc9-4b58-80f0-3ed39f438496")
+	)
+	(fp_line
+		(start -5 1.6)
+		(end -5 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fee58e33-c956-4b82-a7e7-8a9a38a83cd6")
+	)
+	(fp_line
+		(start 5 -1.6)
+		(end 5 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9d413d9c-7190-49af-bac5-5a62b0d0e0ae")
+	)
+	(fp_line
+		(start 5 1.6)
+		(end -5 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "772992aa-06d4-427f-8746-75349184c99f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.5 0)
+		(layer "F.Fab")
+		(uuid "37d2a3e7-8058-4b10-a088-d3e02e8f8ddb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0 90)
+		(size 2.9 6.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8f1b0888-3471-484a-9ed1-03b83ff24645")
+	)
+	(pad "2" smd rect
+		(at -4.625 0)
+		(size 1.35 2.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "181fd84d-d2ff-485e-aa47-6df510b3088a")
+	)
+	(pad "3" smd rect
+		(at 4.625 0)
+		(size 1.35 2.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1432e2c9-1c77-4027-b2cd-0cfa62ebfbca")
+	)
+	(model "${KICAD_USER_LIB_DIR}/Lib/RF_Antenna_extlib/Taoglas_GGBLA.125.A_GNSS.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
