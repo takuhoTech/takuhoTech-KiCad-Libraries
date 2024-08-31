@@ -60,8 +60,8 @@
 		)
 		(symbol "Taoglas_GGBLA.125.A_GNSS_1_1"
 			(rectangle
-				(start -7.62 5.08)
-				(end 2.54 -5.08)
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -71,7 +71,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 2.54 0)
+				(at -7.62 2.54 0)
 				(length 2.54)
 				(name "RF_Feed"
 					(effects
@@ -89,7 +89,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 0 0)
+				(at -7.62 0 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -107,7 +107,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 -2.54 0)
+				(at -7.62 -2.54 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -187,7 +187,7 @@
 				(start -5.08 7.62)
 				(end 7.62 -7.62)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill

@@ -63,7 +63,7 @@
 				(start -10.16 20.32)
 				(end 10.16 -20.32)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
