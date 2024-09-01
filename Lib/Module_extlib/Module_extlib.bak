@@ -61,7 +61,7 @@
 			)
 		)
 		(symbol "M5Stamp_C3_0_0"
-			(pin unspecified line
+			(pin power_in line
 				(at -16.51 13.97 0)
 				(length 5.08)
 				(name "GND"
@@ -79,7 +79,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at -16.51 -8.89 0)
 				(length 5.08)
 				(name "5V"
@@ -97,43 +97,7 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -16.51 -11.43 0)
-				(length 5.08)
-				(name "G1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -16.51 -13.97 0)
-				(length 5.08)
-				(name "G0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
+			(pin power_in line
 				(at 16.51 -13.97 180)
 				(length 5.08)
 				(name "GND"
@@ -151,7 +115,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 16.51 -11.43 180)
 				(length 5.08)
 				(name "5V"
@@ -169,43 +133,7 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 16.51 -8.89 180)
-				(length 5.08)
-				(name "G19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 16.51 -6.35 180)
-				(length 5.08)
-				(name "G18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
+			(pin power_in line
 				(at 16.51 -3.81 180)
 				(length 5.08)
 				(name "GND"
@@ -223,97 +151,7 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 16.51 -1.27 180)
-				(length 5.08)
-				(name "G9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 16.51 1.27 180)
-				(length 5.08)
-				(name "EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -16.51 11.43 0)
-				(length 5.08)
-				(name "G4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 16.51 3.81 180)
-				(length 5.08)
-				(name "G20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 16.51 6.35 180)
-				(length 5.08)
-				(name "G21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
+			(pin power_out line
 				(at 16.51 8.89 180)
 				(length 5.08)
 				(name "3V3"
@@ -331,79 +169,7 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -16.51 8.89 0)
-				(length 5.08)
-				(name "G5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -16.51 6.35 0)
-				(length 5.08)
-				(name "G6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -16.51 3.81 0)
-				(length 5.08)
-				(name "G7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -16.51 1.27 0)
-				(length 5.08)
-				(name "G8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -16.51 -1.27 0)
 				(length 5.08)
 				(name "G10"
@@ -421,7 +187,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at -16.51 -3.81 0)
 				(length 5.08)
 				(name "5V"
@@ -439,7 +205,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -16.51 -6.35 0)
 				(length 5.08)
 				(name "GND"
@@ -488,7 +254,7 @@
 				(effects
 					(font
 						(face "KiCad Font")
-						(size 5.08 5.08)
+						(size 3.048 3.048)
 					)
 				)
 			)
@@ -498,6 +264,240 @@
 					(font
 						(face "KiCad Font")
 						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -16.51 -11.43 0)
+				(length 5.08)
+				(name "G1/ADC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -16.51 -13.97 0)
+				(length 5.08)
+				(name "G0/ADC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 -8.89 180)
+				(length 5.08)
+				(name "G19/D+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 -6.35 180)
+				(length 5.08)
+				(name "G18/D-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 -1.27 180)
+				(length 5.08)
+				(name "G9/SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 16.51 1.27 180)
+				(length 5.08)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -16.51 11.43 0)
+				(length 5.08)
+				(name "G4/SCK/ADC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 16.51 3.81 180)
+				(length 5.08)
+				(name "G20/RX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 6.35 180)
+				(length 5.08)
+				(name "G21/TX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -16.51 8.89 0)
+				(length 5.08)
+				(name "G5/MISO/ADC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -16.51 6.35 0)
+				(length 5.08)
+				(name "G6/MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -16.51 3.81 0)
+				(length 5.08)
+				(name "G7/CS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -16.51 1.27 0)
+				(length 5.08)
+				(name "G8/SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 			)
