@@ -1,9 +1,9 @@
-(footprint "M5STAMP-C3"
+(footprint "M5Stamp_C3"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(property "Reference" ""
+	(property "Reference" "Ref**"
 		(at 0.381 -18.139 0)
 		(layer "F.SilkS")
 		(uuid "7b49076d-47ec-4dc7-b8af-178ccceeea7c")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "M5STAMP-C3"
+	(property "Value" "M5Stamp_C3"
 		(at 0.381 17.631 0)
 		(layer "F.Fab")
 		(uuid "bdaa38ca-4a7d-4859-8f56-853b1cc38fbd")
@@ -74526,5 +74526,16 @@
 			)
 		)
 		(uuid "c37d5e13-3085-42b2-bebf-5cd17eec5eec")
+	)
+	(model "${KICAD_USER_LIB_DIR}/Lib/Module_extlib/M5stamp_C3.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
