@@ -1,0 +1,257 @@
+(footprint "Xinger_0805_2012Metric-6_Pad0.33x0.41mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "https://www.ttm.com/en/solutions/rfs-components/xinger-components")
+	(tags "coupler rf balun divider PD0922J5050S2HF DC4759J5020AHF")
+	(property "Reference" "REF**"
+		(at 0 -1.95 0)
+		(layer "F.SilkS")
+		(uuid "04858c69-af38-4120-84f3-0c46f7710617")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Xinger_0805_2012Metric-6_Pad0.33x0.41mm"
+		(at 0 1.95 0)
+		(layer "F.Fab")
+		(uuid "4414dcdf-4a2e-4bee-8287-c09979d49a35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "720d6abb-d38c-4e49-a7a8-0eefceb1b71c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5e77ed7-1235-44a1-a703-9d0d2251cc90")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "727f10f8-5a62-471d-ba55-114b6bcb1439")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(clearance 0.04)
+	(attr smd)
+	(fp_line
+		(start -0.65 1.12)
+		(end 0.64 1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "598a679d-1817-45ba-a10a-a7e09bdca130")
+	)
+	(fp_line
+		(start -0.005 -1.12)
+		(end 0.64 -1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f2d7ed5e-d0b4-48ac-b4b4-35389ff952e2")
+	)
+	(fp_poly
+		(pts
+			(xy -0.76 -1.12) (xy -1.04 -1.12) (xy -0.76 -1.4) (xy -0.76 -1.12)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "0e188a46-07db-42b1-95ee-434b9c99569d")
+	)
+	(fp_line
+		(start -0.91 -1.27)
+		(end 0.91 -1.27)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e9e4934a-e998-49c9-9431-fe0f72bce00d")
+	)
+	(fp_line
+		(start -0.91 1.27)
+		(end -0.91 -1.27)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6581f1b9-9acc-4b14-bd40-2815d34b34a6")
+	)
+	(fp_line
+		(start 0.91 -1.27)
+		(end 0.91 1.27)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0ff72299-db03-44c8-8541-03bcc8f23639")
+	)
+	(fp_line
+		(start 0.91 1.27)
+		(end -0.91 1.27)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4a57d9ca-1a0e-4950-a9fc-221e9c82ecd4")
+	)
+	(fp_line
+		(start -0.645 -0.6975)
+		(end -0.645 1.02)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c84286ca-6c41-4b02-acc6-bcbb1c31437a")
+	)
+	(fp_line
+		(start -0.645 -0.6975)
+		(end -0.3225 -1.02)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d6f294ff-0674-4271-98b2-69a90c71c33a")
+	)
+	(fp_line
+		(start -0.645 1.02)
+		(end 0.645 1.02)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "039c5abd-f77e-4017-bd7d-501a6ebe962a")
+	)
+	(fp_line
+		(start 0.645 -1.02)
+		(end -0.3225 -1.02)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "88e8ea7c-07d5-40c7-8b43-47872d5d4bb5")
+	)
+	(fp_line
+		(start 0.645 1.02)
+		(end 0.645 -1.02)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "acba0bbe-3653-489a-bb32-41dd94689ac7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "205204d2-1426-4682-85bd-670e7ce8f6ac")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.495 -0.66 270)
+		(size 0.41 0.33)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.04)
+		(uuid "183221b4-a493-4625-bcdd-2362ab376042")
+	)
+	(pad "2" smd rect
+		(at -0.495 0 270)
+		(size 0.41 0.33)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.04)
+		(uuid "f615ac6b-c2fe-4cb9-980b-ea06a5ec990f")
+	)
+	(pad "3" smd rect
+		(at -0.495 0.66 270)
+		(size 0.41 0.33)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.04)
+		(uuid "02882346-87ac-4b35-868f-ccc5f26de6e2")
+	)
+	(pad "4" smd rect
+		(at 0.495 0.66 270)
+		(size 0.41 0.33)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.04)
+		(uuid "0a72bc04-a463-4ea0-bfde-dd27fbac49ea")
+	)
+	(pad "5" smd rect
+		(at 0.495 0 270)
+		(size 0.41 0.33)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.04)
+		(uuid "43e9c1d1-6aa4-4bc7-8c97-4d19ed44637d")
+	)
+	(pad "6" smd rect
+		(at 0.495 -0.66 270)
+		(size 0.41 0.33)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.04)
+		(uuid "97ab5f6a-8026-4130-b5b7-233f45d9ab3a")
+	)
+	(model "${KICAD_USER_LIB_DIR}/Lib/RF_Converter_extlib/Xinger_0805_2012Metric-6_H0.70mm.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)
