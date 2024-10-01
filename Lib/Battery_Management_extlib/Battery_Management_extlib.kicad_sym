@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm_ThermalVias"
-			(at 0 -30.48 0)
+			(at 0 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/3558.pdf"
-			(at 0 -33.02 0)
+			(at 0 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Description" "Linear USB Battery Charger with Buck and Buck-Boost Regulators"
-			(at 0 -27.94 0)
+			(at 0 -33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)

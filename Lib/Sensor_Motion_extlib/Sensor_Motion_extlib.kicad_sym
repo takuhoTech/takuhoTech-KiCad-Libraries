@@ -34,7 +34,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ceva-dsp.com/wp-content/uploads/2019/10/BNO080_085-Datasheet.pdf"
-			(at 0 -27.94 0)
+			(at 0 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,7 +43,7 @@
 			)
 		)
 		(property "Description" "9-Axis Absolute Orientation Sensor: Accelerometer, Gyroscope, Magnetometer"
-			(at 0 -25.4 0)
+			(at 0 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
