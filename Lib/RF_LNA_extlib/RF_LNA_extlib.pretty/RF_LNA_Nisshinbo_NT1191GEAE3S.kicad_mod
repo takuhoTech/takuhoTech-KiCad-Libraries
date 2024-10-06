@@ -179,7 +179,7 @@
 		(end 1 -1.3)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(layer "F.CrtYd")
 		(uuid "08313532-171c-43ac-b24c-b370a5ef644d")
@@ -189,7 +189,7 @@
 		(end -1 -1.3)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(layer "F.CrtYd")
 		(uuid "41e3cac3-4280-4fbd-a85c-fe96a5a5da24")
@@ -199,7 +199,7 @@
 		(end 1 1.3)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(layer "F.CrtYd")
 		(uuid "de681701-afe2-453a-90ee-65cb1b52c068")
@@ -209,7 +209,7 @@
 		(end -1 1.3)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(layer "F.CrtYd")
 		(uuid "888a5fae-03c3-48f8-b360-f78b5b796df1")
@@ -219,7 +219,7 @@
 		(end -0.8 0.8)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "5df94581-d54d-4997-8ec4-db5c67faf5ee")
@@ -229,7 +229,7 @@
 		(end 0.8 0.8)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "498d0b3b-314c-4e4e-8c76-294c1238beee")
@@ -239,7 +239,7 @@
 		(end -0.8 -0.8)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "ff4227bd-cfea-482b-8384-c2bc83b6162a")
@@ -249,7 +249,7 @@
 		(end 0.8 -0.8)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "9414f25f-cfcb-4664-a164-d19a87afeee3")
