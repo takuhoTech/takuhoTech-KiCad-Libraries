@@ -3,13 +3,15 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
+	(descr "https://docs.m5stack.com/ja/core/stamp_c3")
+	(tags "ESP32-C3 BLE Wi-Fi")
 	(property "Reference" "REF**"
-		(at 0 -18 0)
+		(at 0 -20 0)
 		(layer "F.SilkS")
 		(uuid "7b49076d-47ec-4dc7-b8af-178ccceeea7c")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -20,7 +22,7 @@
 		(uuid "bdaa38ca-4a7d-4859-8f56-853b1cc38fbd")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -73780,6 +73782,18 @@
 		)
 		(layer "Eco2.User")
 		(uuid "90e4f64a-6b75-4d71-be23-b201833e4c55")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -18 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6118bfb7-766e-470a-a297-ae12e9c8b977")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(pad "" thru_hole oval
 		(at 0 -2 180)

@@ -3,7 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Ultrathin Low VIN, 2A Buck-Boost μModule Regulator")
+	(descr "Ultrathin Low VIN, 2A Buck-Boost μModule Regulator, https://www.analog.com/media/jp/technical-documentation/data-sheets/ltm4693_jp.pdf")
+	(tags "μModule DCDC ")
 	(property "Reference" "REF**"
 		(at 0 -5 0)
 		(unlocked yes)

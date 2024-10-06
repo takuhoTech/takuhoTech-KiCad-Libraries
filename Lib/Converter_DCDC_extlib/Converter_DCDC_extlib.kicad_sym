@@ -63,15 +63,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "LGA25_3.5X4X1.25_ADI"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "LTM4693_0_1"
 			(pin power_out line
 				(at -7.62 -17.78 90)

@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Low Profile, Small Footprint Embedded Loop Antenna")
-	(tags "loop antenna")
+	(descr "Low Profile, Small Footprint Embedded Loop Antenna, https://www.taoglas.com/datasheets/GGBLA.125.A.pdf")
+	(tags "loop antenna GNSS L1 L2 L5 L6")
 	(property "Reference" "REF**"
 		(at 0 -4 0)
 		(layer "F.SilkS")
@@ -39,7 +39,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://www.taoglas.com/datasheets/GGBLA.125.A.pdf"
+	(property "Datasheet" ""
 		(at 0 4 0)
 		(layer "F.Fab")
 		(hide yes)

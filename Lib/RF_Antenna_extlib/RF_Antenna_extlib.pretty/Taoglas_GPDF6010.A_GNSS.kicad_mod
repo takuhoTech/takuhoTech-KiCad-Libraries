@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Passive All-band High Precision GNSS Stacked Dual Pin Dual Feed Patch Antenna")
-	(tags "patch antenna")
+	(descr "Passive All-band High Precision GNSS Stacked Dual Pin Dual Feed Patch Antenna, https://www.taoglas.com/datasheets/GPDF6010.A.pdf")
+	(tags "patch antenna GNSS L1 L2 L5 L6")
 	(property "Reference" "REF**"
 		(at 0 -22.5 0)
 		(unlocked yes)
@@ -42,7 +42,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://www.taoglas.com/datasheets/GPDF6010.A.pdf"
+	(property "Datasheet" ""
 		(at 0 -7.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
