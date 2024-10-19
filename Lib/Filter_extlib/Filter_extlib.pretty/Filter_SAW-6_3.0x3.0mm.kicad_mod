@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "6-pin 3.0 x 3.0mm SAW filter package, https://www.taisaw.com/assets/PDF/TA1985A%20_Rev.1.0_.pdf")
-	(tags "SAW filter 6-pin TA1985A")
+	(tags "SAW filter diplexer duplexer 6-pin TA1985A")
 	(property "Reference" "REF**"
 		(at 0 3 0)
 		(unlocked yes)
