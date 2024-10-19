@@ -1,0 +1,267 @@
+(footprint "Filter_SAW-10_1.5x1.1mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "10-pin 1.5 x 1.1mm SAW filter package, https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5731/TE0149A.pdf")
+	(tags "SAW filter 10-pin TE0149A L2 L6")
+	(property "Reference" "REF**"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e276fa60-2301-41a4-b30b-42de041b35ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Filter_SAW-10_1.5x1.1mm"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d67b9023-5ebf-4f27-9b28-99eba3854ca0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00e55df1-0f67-46c7-8756-cd609959d9f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d1cf7fd-9457-4815-a9ad-88677cdf788a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a1e2771-26da-4948-9c5d-57ab72f7afcd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.9 -0.5)
+		(end -0.9 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "300358da-6219-402b-891a-a790ade40d66")
+	)
+	(fp_line
+		(start 0.9 -0.5)
+		(end 0.9 0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2d400eab-7d59-4482-bb02-0c60160cc1b8")
+	)
+	(fp_poly
+		(pts
+			(xy -0.9 0.27) (xy -0.9 0.55) (xy -1.18 0.27) (xy -0.9 0.27)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "4e9eaa88-da34-4111-b562-b12a4633d65e")
+	)
+	(fp_line
+		(start -1 -0.8)
+		(end 1 -0.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c45844df-eacb-41eb-a417-533fa1d160a9")
+	)
+	(fp_line
+		(start -1 0.8)
+		(end -1 -0.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0c4202a0-95dc-4646-8881-867b96e8c962")
+	)
+	(fp_line
+		(start -1 0.8)
+		(end 1 0.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "20b3fc16-7057-4a4a-9ca3-b5ec057a74eb")
+	)
+	(fp_line
+		(start 1 0.8)
+		(end 1 -0.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c1ec669f-3dba-4a1c-ae8f-20b0467b2182")
+	)
+	(fp_line
+		(start -0.75 -0.55)
+		(end 0.75 -0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7a7745f8-3d6c-454e-914d-a99391740902")
+	)
+	(fp_line
+		(start -0.75 0.55)
+		(end -0.75 -0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "153adc16-c754-4960-98c4-1a708fd84378")
+	)
+	(fp_line
+		(start -0.75 0.55)
+		(end 0.75 0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1cc5a2af-68d9-48ad-881d-10fd9f202313")
+	)
+	(fp_line
+		(start 0.75 0.55)
+		(end 0.75 -0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9614e3da-62ef-44ff-91aa-5da34509c7f6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c1e01a11-329e-4b00-b74b-93f8f51477e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.585 0.39)
+		(size 0.18 0.18)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a092f68e-5a80-4ae7-881d-f457718cfa24")
+	)
+	(pad "2" smd rect
+		(at -0.195 0.39)
+		(size 0.18 0.18)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "267b2bce-5f40-45f9-a4d5-a5e3e0ea24df")
+	)
+	(pad "3" smd rect
+		(at 0.195 0.39)
+		(size 0.18 0.18)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3f39d0c2-4b41-403a-a256-5d4dd9c88378")
+	)
+	(pad "4" smd rect
+		(at 0.585 0.39)
+		(size 0.18 0.18)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "eae8d9ac-c646-4a07-bda6-773a3c226ca1")
+	)
+	(pad "5" smd rect
+		(at 0.48 0)
+		(size 0.39 0.18)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2b0679ba-d6f6-49b9-8bf4-d2c95ced44f4")
+	)
+	(pad "6" smd rect
+		(at 0.585 -0.39)
+		(size 0.18 0.18)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2e59546c-b314-423b-b5bd-c26ac83c22a8")
+	)
+	(pad "7" smd rect
+		(at 0.195 -0.39)
+		(size 0.18 0.18)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a2d071f2-95fe-4297-9ffe-08e047e2fe9f")
+	)
+	(pad "8" smd rect
+		(at -0.195 -0.39)
+		(size 0.18 0.18)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "21c27cbf-3657-4089-b3b6-33de53c82d37")
+	)
+	(pad "9" smd rect
+		(at -0.585 -0.39)
+		(size 0.18 0.18)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a63e663c-448c-465c-8f9c-336f040f1d65")
+	)
+	(pad "10" smd rect
+		(at -0.43 0)
+		(size 0.49 0.18)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f69c7380-9c48-43c2-afd6-2677b103aa55")
+	)
+	(model "${KICAD_USER_LIB_DIR}/Lib/Filter_extlib/Filter_SAW-10_1.5x1.1mm.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
