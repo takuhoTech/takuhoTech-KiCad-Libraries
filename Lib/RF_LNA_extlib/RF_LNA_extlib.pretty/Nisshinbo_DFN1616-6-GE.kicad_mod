@@ -6,7 +6,7 @@
 	(descr "1.6 x 1.6mm Wettable Flank Package for AOI, https://www.nisshinbo-microdevices.co.jp/ja/design-support/package/dfn1616-6-ge.html")
 	(tags "GNSS LNA NT1191GEAE3S")
 	(property "Reference" "REF**"
-		(at 0 -4 0)
+		(at 0 -3.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "a2972a53-269b-4479-aca4-742b8c3da18b")

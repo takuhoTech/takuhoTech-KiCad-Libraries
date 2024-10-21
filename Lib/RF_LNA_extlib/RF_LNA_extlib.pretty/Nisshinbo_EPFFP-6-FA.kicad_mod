@@ -6,7 +6,7 @@
 	(descr "0.7 x 1.1mm Package, https://www.nisshinbo-microdevices.co.jp/ja/design-support/package/epffp6-fa.html")
 	(tags "GNSS LNA NT1195FAAE2S NT1192FAAE1S NT1193FAAE2S EPFFP6-X2 NJG1155UX2")
 	(property "Reference" "REF**"
-		(at 0 -4 0)
+		(at 0 -3 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "a2972a53-269b-4479-aca4-742b8c3da18b")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "Nisshinbo_EPFFP-6-FA"
-		(at 0 2 0)
+		(at 0 1.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "c9a81d55-6174-44b3-b913-5aa73bf4f503")
@@ -66,8 +66,197 @@
 		)
 	)
 	(attr smd)
+	(fp_circle
+		(center -0.4 -0.2)
+		(end -0.275 -0.2)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "fe12f901-6130-4994-b083-ff686595d74c")
+	)
+	(fp_circle
+		(center -0.4 0.2)
+		(end -0.275 0.2)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "7b8eb44f-2fd2-4f70-a1d6-2ac4ad562ec3")
+	)
+	(fp_circle
+		(center 0 -0.2)
+		(end 0.125 -0.2)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "4b2ef0e4-4726-4644-9083-e56249a76c49")
+	)
+	(fp_circle
+		(center 0 0.2)
+		(end 0.125 0.2)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "fa0711f2-3767-458a-9e32-bc57dd1dea77")
+	)
+	(fp_circle
+		(center 0.4 -0.2)
+		(end 0.525 -0.2)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "63780a50-044c-494f-96cc-958b5df34d42")
+	)
+	(fp_circle
+		(center 0.4 0.2)
+		(end 0.525 0.2)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "77874fec-d4b1-4ad0-8f0a-4ec26d437289")
+	)
+	(fp_line
+		(start -0.7 0)
+		(end -0.7 -0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e202789-b305-4d4f-b286-a5c26e7d8585")
+	)
+	(fp_line
+		(start 0.7 0.3)
+		(end 0.7 -0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9387be3-0341-4047-ab5b-0017185e4a92")
+	)
+	(fp_poly
+		(pts
+			(xy -0.7 0.2) (xy -0.7 0.48) (xy -0.98 0.2) (xy -0.7 0.2)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "3c919497-788e-4037-ae8b-ddda6c582070")
+	)
+	(fp_rect
+		(start -0.575 -0.375)
+		(end 0.575 0.375)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "14fb5ec7-db87-4184-ac54-195d7449e714")
+	)
+	(fp_line
+		(start -0.8 0.6)
+		(end -0.8 -0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7756990f-b0d1-4244-b68f-ef03435863fb")
+	)
+	(fp_line
+		(start 0.8 -0.6)
+		(end -0.8 -0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6981704b-46f8-4e22-b59c-8a4a9878afc6")
+	)
+	(fp_line
+		(start 0.8 0.6)
+		(end -0.8 0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e7dd2bdf-d961-4e24-8fa1-ea8efcc33927")
+	)
+	(fp_line
+		(start 0.8 0.6)
+		(end 0.8 -0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "38ad9ff6-98d7-4ab0-a6f4-0b7cdf2e4f6c")
+	)
+	(fp_line
+		(start -0.55 -0.35)
+		(end -0.55 0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d3c74a5a-dd2e-4e7e-b0a8-e99611bd575e")
+	)
+	(fp_line
+		(start 0.55 -0.35)
+		(end -0.55 -0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "abeabf50-5d37-4203-a6b1-2e97a99834a7")
+	)
+	(fp_line
+		(start 0.55 -0.35)
+		(end 0.55 0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4769b92f-59d2-4e6a-8aee-0a223fba8481")
+	)
+	(fp_line
+		(start 0.55 0.35)
+		(end -0.55 0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bbc6128c-9709-40aa-ab59-b4306a7920ac")
+	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -2 0)
+		(at 0 -1.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "7530c49f-2a16-40f4-afa9-615f11fef1c0")
@@ -76,6 +265,53 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.4 0.2)
+		(size 0.25 0.25)
+		(layers "F.Cu")
+		(uuid "c3116eaa-5c01-41b7-ba72-9791609add69")
+	)
+	(pad "2" smd rect
+		(at 0 0.2)
+		(size 0.25 0.25)
+		(layers "F.Cu")
+		(uuid "084314b2-0853-4f62-8584-5fc8206bc8e1")
+	)
+	(pad "3" smd rect
+		(at 0.4 0.2)
+		(size 0.25 0.25)
+		(layers "F.Cu")
+		(uuid "05796f70-e6f5-44ca-98b8-b81b7d214195")
+	)
+	(pad "4" smd rect
+		(at 0.4 -0.2)
+		(size 0.25 0.25)
+		(layers "F.Cu")
+		(uuid "4d95d6b6-9693-4521-a799-df25838634bf")
+	)
+	(pad "5" smd rect
+		(at 0 -0.2)
+		(size 0.25 0.25)
+		(layers "F.Cu")
+		(uuid "b453344f-c04a-4ea2-8c08-8019491f896d")
+	)
+	(pad "6" smd rect
+		(at -0.4 -0.2)
+		(size 0.25 0.25)
+		(layers "F.Cu")
+		(uuid "600c086f-ba11-4c30-b37c-26f87aa06460")
+	)
+	(model "${KICAD_USER_LIB_DIR}/Lib/RF_LNA_extlib/Nisshinbo_EPFFP-6-FA.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
 		)
 	)
 )
