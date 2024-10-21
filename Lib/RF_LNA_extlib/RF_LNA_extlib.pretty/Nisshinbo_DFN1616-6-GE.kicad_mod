@@ -1,10 +1,10 @@
-(footprint "RF_LNA_Nisshinbo_NT1191GEAE3S"
+(footprint "Nisshinbo_DFN1616-6-GE"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "GNSS Wideband Low Noise Amplifier, https://www.nisshinbo-microdevices.co.jp/ja/pdf/datasheet/nt1191geae3s-ja.pdf")
-	(tags "GNSS L1 L2 L5 L6")
+	(descr "1.6 x 1.6mm Wettable Flank Package for AOI, https://www.nisshinbo-microdevices.co.jp/ja/design-support/package/dfn1616-6-ge.html")
+	(tags "GNSS LNA NT1191GEAE3S")
 	(property "Reference" "REF**"
 		(at 0 -4 0)
 		(unlocked yes)
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "NT1191GEAE3S"
+	(property "Value" "Nisshinbo_DFN1616-6-GE"
 		(at 0 2 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -364,7 +364,7 @@
 			)
 		)
 	)
-	(model "${KICAD_USER_LIB_DIR}/Lib/RF_LNA_extlib/RF_LNA_Nisshinbo_NT1191GEAE3S.stp"
+	(model "${KICAD_USER_LIB_DIR}/Lib/RF_LNA_extlib/Nisshinbo_DFN1616-6-GE.stp"
 		(offset
 			(xyz 0 0 0)
 		)

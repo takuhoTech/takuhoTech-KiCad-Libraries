@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RF_LNA_extlib:RF_LNA_Nisshinbo_NT1191GEAE3S"
+		(property "Footprint" "RF_LNA_extlib:Nisshinbo_DFN1616-6-GE"
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -40,8 +40,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 1.27 0 0)
+		(property "Description" "GNSS Wideband Low Noise Amplifier"
+			(at 0 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)

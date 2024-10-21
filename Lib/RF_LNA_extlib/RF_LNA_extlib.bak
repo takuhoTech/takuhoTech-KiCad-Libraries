@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RF_LNA_extlib:RF_LNA_Nisshinbo_NT1191GEAE3S"
+		(property "Footprint" "RF_LNA_extlib:Nisshinbo_DFN1616-6-GE"
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GNSS Wideband Low Noise Amplifier"
 			(at 1.27 0 0)
 			(effects
 				(font
@@ -156,7 +156,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -5.08 90)
 				(length 2.54) hide
 				(name "NC(GND)"
@@ -174,7 +174,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -5.08 90)
 				(length 1.27)
 				(name "EP"
