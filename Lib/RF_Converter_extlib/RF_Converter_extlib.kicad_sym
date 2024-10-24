@@ -129,7 +129,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 2.54 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "Input"
 					(effects
@@ -165,7 +165,7 @@
 				)
 			)
 			(pin output line
-				(at -10.16 -2.54 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "Isolated"
 					(effects
@@ -183,7 +183,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 2.54 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "∠θ"
 					(effects
@@ -219,7 +219,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 -2.54 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "∠θ-90"
 					(effects
@@ -365,7 +365,7 @@
 				)
 			)
 			(pin output line
-				(at -10.16 -2.54 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "Isolated"
 					(effects
@@ -401,7 +401,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 2.54 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "Input"
 					(effects
@@ -419,7 +419,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 -2.54 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "∠θ-90"
 					(effects
@@ -455,7 +455,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 2.54 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "∠θ"
 					(effects
@@ -601,7 +601,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 2.54 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "∠θ"
 					(effects
@@ -637,7 +637,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 -2.54 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "∠θ-90"
 					(effects
@@ -655,7 +655,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 2.54 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "Input"
 					(effects
@@ -691,7 +691,7 @@
 				)
 			)
 			(pin output line
-				(at -10.16 -2.54 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "Isolated"
 					(effects
@@ -837,7 +837,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 -2.54 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "∠θ-90"
 					(effects
@@ -873,7 +873,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 2.54 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "∠θ"
 					(effects
@@ -891,7 +891,7 @@
 				)
 			)
 			(pin output line
-				(at -10.16 -2.54 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "Isolated"
 					(effects
@@ -927,7 +927,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 2.54 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "Input"
 					(effects
