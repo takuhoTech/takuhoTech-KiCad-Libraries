@@ -1,0 +1,192 @@
+(footprint "Battery_Seiko_MS421R"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Reflowable MS Lithium Rechargeable Battery")
+	(tags "Coin Cell Battery RTC")
+	(property "Reference" "REF**"
+		(at 0 -6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a311a824-eac5-406c-8c04-8527cb5cbb42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Battery_Seiko_MS421R"
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9e9c6254-cb40-4909-8249-855353fa6990")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24652413-71f0-4a6e-be8a-f073d2f854e9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97fab7b7-f799-4c38-a67d-afa7d7c7a7c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d262aec8-0907-4b0c-9145-457e99a98b16")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_arc
+		(start -1.767767 1.767767)
+		(mid -2.309699 -0.956709)
+		(end 0 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23f34b90-a1aa-4e86-852e-d2701805bb02")
+	)
+	(fp_arc
+		(start 2.5 0)
+		(mid 2.478612 0.326316)
+		(end 2.414814 0.647048)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e89389d3-802d-47d6-b7cf-871399e0a923")
+	)
+	(fp_line
+		(start -3 3)
+		(end -3 -3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "276a695c-c6ed-4f86-9df2-79f6f7d1bda9")
+	)
+	(fp_line
+		(start 3 -3)
+		(end -3 -3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ef29ed68-3619-426a-928c-980d4efc370b")
+	)
+	(fp_line
+		(start 3 -3)
+		(end 3 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "20c96996-28bd-487e-a0e9-8da3b35276df")
+	)
+	(fp_line
+		(start 3 3)
+		(end -3 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "282aef88-a051-40c0-889f-181b3c1ce5c9")
+	)
+	(fp_line
+		(start 3 3)
+		(end 3 -3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a39325d0-e93b-488d-b54d-d0ca4e771eb8")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "29340429-363c-41fd-a9d2-d59b179baabe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "278500f2-0975-4dee-bd3b-cfa67cfc78ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 2 -2)
+		(size 1.3 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.7 1.7) (xy 0.7 -0.7) (xy -1.7 -0.7)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "469e0655-74b7-4199-aba1-a352d0700cb3")
+	)
+	(pad "2" smd rect
+		(at 0.65 1.85)
+		(size 4.1 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "813be6bb-903b-468b-9fd1-582e7261cc9a")
+	)
+)
