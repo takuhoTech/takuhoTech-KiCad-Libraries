@@ -1,0 +1,305 @@
+(footprint "Filter_SAW-8_3.0x3.0mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "8-pin 3.0 x 3.0mm SAW filter package, https://www.taisaw.com/assets/PDF/TE0133B%20_Rev.1.0_.pdf")
+	(tags "SAW filter diplexer duplexer 8-pin TE0133B")
+	(property "Reference" "REF**"
+		(at 0 3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "72165f68-33f2-4533-a268-f4103f6cbe77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Filter_SAW-8_3.0x3.0mm"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5b1ae78f-19ec-4457-90b0-acd677d0b0c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 8.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05c4cbde-8bd0-4766-9fba-5d7c11544ddb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 8.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "255b6619-c23c-4409-8c54-21f4f3256cb8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 8.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "426e1e0b-157b-4806-93d9-6daa6b878724")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.8 1.8)
+		(end -1.8 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e885b493-646d-4ecd-b374-47db00c70e6f")
+	)
+	(fp_line
+		(start -1.8 1.8)
+		(end -1.2 1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ac96167-a49d-4276-9cbe-c5c75bd4941f")
+	)
+	(fp_line
+		(start -0.8 -1.8)
+		(end -1.4 -1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1cb5052b-dfdd-45fc-9367-cb122a03c6ee")
+	)
+	(fp_line
+		(start 1.8 -1.8)
+		(end 1.2 -1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e0be20b-01d3-4f7b-8112-fba4b82ca897")
+	)
+	(fp_line
+		(start 1.8 -1.8)
+		(end 1.8 -1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c5a3d701-96c6-4590-9abb-0ea77dc0f6b8")
+	)
+	(fp_line
+		(start 1.8 1.8)
+		(end 1.2 1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "689fa680-ae8c-4057-bc67-4d232cf07ebc")
+	)
+	(fp_line
+		(start 1.8 1.8)
+		(end 1.8 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4def51e9-c27e-4c5b-a3b2-99c15f422eae")
+	)
+	(fp_poly
+		(pts
+			(xy -1.8 -1.8) (xy -2.08 -1.8) (xy -1.8 -2.08) (xy -1.8 -1.8)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "26e78e0b-47fb-4fd8-953a-e1d6301a1c01")
+	)
+	(fp_line
+		(start -1.8 -1.8)
+		(end 1.8 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "010b411f-e3dd-47c3-9f1f-c1c33eaaf634")
+	)
+	(fp_line
+		(start -1.8 1.8)
+		(end -1.8 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cd06abd2-0403-43dd-9687-1697e69c5bd4")
+	)
+	(fp_line
+		(start -1.8 1.8)
+		(end 1.8 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bdfffd6f-ac2f-44a7-87af-6bbd228cb01c")
+	)
+	(fp_line
+		(start 1.8 1.8)
+		(end 1.8 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "579cc791-db0f-4e0b-b5dc-ddf7c4762a63")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ff591112-2a0c-4970-b4c1-87564c259baa")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0716792d-726b-42e0-9c8f-353a54f7e5ed")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e8f732aa-c037-47f3-9a88-f0cb5a0cb5bb")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "83227899-6469-4e2a-9289-c8cb72fb811a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "94827d4f-ed77-42c9-ab49-2a0f9850e7db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.125 -1.2)
+		(size 0.95 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "924abaeb-7047-4f78-bd5a-e885c0e140c6")
+	)
+	(pad "2" smd rect
+		(at -1.125 0)
+		(size 0.95 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "48b97e4a-c628-42be-b537-8b34f4f71f22")
+	)
+	(pad "3" smd rect
+		(at -1.125 1.2)
+		(size 0.95 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "90f7fbe4-8245-4a51-b426-80b1c4f1c219")
+	)
+	(pad "4" smd rect
+		(at 0 1.125 90)
+		(size 0.95 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f62dfc31-acaa-43b2-8055-4fa9b5e50b3e")
+	)
+	(pad "5" smd rect
+		(at 1.125 1.2)
+		(size 0.95 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a250d383-3559-4a28-ae6c-e5113f6e614a")
+	)
+	(pad "6" smd rect
+		(at 1.125 0)
+		(size 0.95 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f5caf0b0-82c9-47b3-9c18-6cb964eaa8a6")
+	)
+	(pad "7" smd rect
+		(at 1.125 -1.2)
+		(size 0.95 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cf1ee94a-529c-49ab-95bd-235070c5f796")
+	)
+	(pad "8" smd rect
+		(at 0 -0.9 90)
+		(size 1.4 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6b68b677-1e5a-4c6a-b4c8-35cd509dae51")
+	)
+	(model "${KICAD_USER_LIB_DIR}/Lib/Filter_extlib/Filter_SAW-6_3.0x3.0mm.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)
