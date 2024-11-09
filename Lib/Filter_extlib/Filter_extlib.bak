@@ -276,6 +276,423 @@
 			)
 		)
 	)
+	(symbol "TE0133B"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "X"
+			(at -5.08 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TE0133B"
+			(at -1.27 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Filter_extlib:Filter_SAW-8_3.0x3.0mm"
+			(at 0 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.taisaw.com/assets/PDF/TE0133B%20_Rev.1.0_.pdf"
+			(at 0 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RF Diplexer, 1189/1582.5MHz, SAW diplexer 8-pin"
+			(at 0 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "SAW Diplexer Duplexer 1189 1582.5 bandpass GNSS L1 L5 TST"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TE0133B_1_1"
+			(rectangle
+				(start -6.35 0)
+				(end 6.35 -12.7)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -6.35 12.7)
+				(end 6.35 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 0 -8.89)
+				(mid -1.27 -7.6255)
+				(end -2.54 -8.89)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -8.89)
+				(mid 1.27 -10.1545)
+				(end 2.54 -8.89)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -6.35)
+				(mid -1.27 -5.0855)
+				(end -2.54 -6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -6.35)
+				(mid 1.27 -7.6145)
+				(end 2.54 -6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -3.81)
+				(mid -1.27 -2.5455)
+				(end -2.54 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -3.81)
+				(mid 1.27 -5.0745)
+				(end 2.54 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -10.16) (xy 2.54 -7.62)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -5.08) (xy 2.54 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 2.54) (xy 2.54 5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 7.62) (xy 2.54 10.16)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 3.81)
+				(mid -1.27 5.0745)
+				(end -2.54 3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 3.81)
+				(mid 1.27 2.5455)
+				(end 2.54 3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 6.35)
+				(mid -1.27 7.6145)
+				(end -2.54 6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 6.35)
+				(mid 1.27 5.0855)
+				(end 2.54 6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 8.89)
+				(mid -1.27 10.1545)
+				(end -2.54 8.89)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 8.89)
+				(mid 1.27 7.6255)
+				(end 2.54 8.89)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin power_in line
+				(at 5.08 -15.24 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 10.16 0 180)
+				(length 3.81)
+				(name "COM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -15.24 90)
+				(length 2.54) hide
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -15.24 90)
+				(length 2.54) hide
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 7.62 0)
+				(length 3.81)
+				(name "L1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -15.24 90)
+				(length 2.54) hide
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 -7.62 0)
+				(length 3.81)
+				(name "L5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -15.24 90)
+				(length 2.54) hide
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "TE0149A"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -566,7 +983,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -15.24 90)
+				(at 5.08 -15.24 90)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -584,7 +1001,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -15.24 90)
+				(at 5.08 -15.24 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -602,7 +1019,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -15.24 90)
+				(at 5.08 -15.24 90)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -620,7 +1037,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -15.24 90)
+				(at 5.08 -15.24 90)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -638,7 +1055,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -15.24 90)
+				(at 5.08 -15.24 90)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -674,7 +1091,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -15.24 90)
+				(at 5.08 -15.24 90)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -692,7 +1109,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -15.24 90)
+				(at 5.08 -15.24 90)
 				(length 2.54) hide
 				(name "GND"
 					(effects
