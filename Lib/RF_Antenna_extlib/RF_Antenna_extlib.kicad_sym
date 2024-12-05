@@ -131,7 +131,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "AE"
-			(at 0 12.7 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -139,7 +139,7 @@
 			)
 		)
 		(property "Value" "GPDF6010.A"
-			(at 0 10.16 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -173,6 +173,14 @@
 				(hide yes)
 			)
 		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "patch antenna"
 			(at 0 0 0)
 			(effects
@@ -182,94 +190,25 @@
 				(hide yes)
 			)
 		)
+		(symbol "GPDF6010.A_0_1"
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 0 -5.08) (xy -5.08 0) (xy 0 5.08) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
 		(symbol "GPDF6010.A_1_1"
-			(rectangle
-				(start -5.08 7.62)
-				(end 7.62 -7.62)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -5.08) (xy 1.27 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -2.54) (xy 1.27 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 2.54) (xy 1.27 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 5.08) (xy 1.27 5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -3.81) (xy 3.81 -6.35) (xy 6.35 -3.81) (xy 3.81 -1.27) (xy 1.27 -3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 3.81) (xy 3.81 1.27) (xy 6.35 3.81) (xy 3.81 6.35) (xy 1.27 3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(pin passive line
-				(at -7.62 5.08 0)
-				(length 2.54)
-				(name "HB-1"
+				(at 7.62 2.54 180)
+				(length 5.08)
+				(name "HB1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -285,9 +224,9 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 2.54 0)
-				(length 2.54)
-				(name "HB-2"
+				(at 7.62 -2.54 180)
+				(length 5.08)
+				(name "HB2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -303,7 +242,27 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 0 0)
+				(at -2.54 -5.08 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GPDF6010.A_2_1"
+			(pin passive line
+				(at -2.54 -5.08 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -321,9 +280,9 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -2.54 0)
-				(length 2.54)
-				(name "LB-1"
+				(at 7.62 2.54 180)
+				(length 5.08)
+				(name "LB1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -339,9 +298,9 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -5.08 0)
-				(length 2.54)
-				(name "LB-2"
+				(at 7.62 -2.54 180)
+				(length 5.08)
+				(name "LB2"
 					(effects
 						(font
 							(size 1.27 1.27)

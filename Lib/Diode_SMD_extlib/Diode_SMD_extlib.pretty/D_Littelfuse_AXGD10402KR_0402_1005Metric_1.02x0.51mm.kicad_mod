@@ -1,0 +1,173 @@
+(footprint "D_Littelfuse_AXGD10402KR_0402_1005Metric_1.02x0.51mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TVS Diode, Littelfuse, AXGD series, 0402 (1005 Metric) (https://www.littelfuse.co.jp/products/polymer-esd-suppressors/xtremeguard-esd-suppressors/axgd/axgd10402kr.aspx)")
+	(tags "chip TVS ESD Diode Littelfuse AXGD")
+	(property "Reference" "REF**"
+		(at 0 -1.17 0)
+		(layer "F.SilkS")
+		(uuid "8630da68-b26d-46d4-a6c3-469a77d0964f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "D_Littelfuse_AXGD10402KR_0402_1005Metric_1.02x0.51mm"
+		(at 0 1.17 0)
+		(layer "F.Fab")
+		(uuid "f219a06f-0843-466d-bd46-8fd47592e08b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fbf96543-dd82-4020-80cc-d3164a4afc5d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ca2766f-4372-4c2d-9e8a-23e6c8095ae9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d864e5d-baa7-4cfd-b9d2-1193bebdc3ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.93 -0.47)
+		(end 0.93 -0.47)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "10869ebc-6b3f-4611-879f-2adafd0433f6")
+	)
+	(fp_line
+		(start -0.93 0.47)
+		(end -0.93 -0.47)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0aca4373-f962-4e8f-98ae-b705cf06bf93")
+	)
+	(fp_line
+		(start 0.93 -0.47)
+		(end 0.93 0.47)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "91bb0438-bdd9-4839-b7e1-66fa41ff57a1")
+	)
+	(fp_line
+		(start 0.93 0.47)
+		(end -0.93 0.47)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e81675bb-3454-494a-af5f-3e36329c0ca6")
+	)
+	(fp_line
+		(start -0.51 -0.255)
+		(end 0.51 -0.255)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "edb9136d-7d40-4f38-99bd-80b75d035da0")
+	)
+	(fp_line
+		(start -0.51 0.255)
+		(end -0.51 -0.255)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5c17f894-b176-4555-8d7a-aee9792f0cf7")
+	)
+	(fp_line
+		(start 0.51 -0.255)
+		(end 0.51 0.255)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "07ff128b-9710-4c6a-bfdd-a0eccc088584")
+	)
+	(fp_line
+		(start 0.51 0.255)
+		(end -0.51 0.255)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ca37e891-0cf6-4bc1-b6c7-d1a968ef2b14")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d9da61ca-8b2f-4596-9309-387a33c6c898")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.4826 0)
+		(size 0.5842 0.5588)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2672dea0-17e0-4ef6-b8fc-0c6bbed59bed")
+	)
+	(pad "2" smd rect
+		(at 0.4826 0)
+		(size 0.5842 0.5588)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b2c902d2-471e-42a4-bec3-0afd95e323cc")
+	)
+)

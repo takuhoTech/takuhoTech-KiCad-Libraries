@@ -1,4 +1,4 @@
-(footprint "D_US2H"
+(footprint "D_Toshiba_US2H"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "D_US2H"
+	(property "Value" "D_Toshiba_US2H"
 		(at 0 1.65 0)
 		(unlocked yes)
 		(layer "F.Fab")
