@@ -8,6 +8,7 @@
   (lib (name "Filter_extlib")(type "KiCad")(uri "${KICAD_USER_LIB_DIR}\Lib\Filter_extlib\Filter_extlib.pretty")(options "")(descr ""))
   (lib (name "Inductor_SMD_extlib")(type "KiCad")(uri "${KICAD_USER_LIB_DIR}\Lib\Inductor_SMD_extlib\Inductor_SMD_extlib.pretty")(options "")(descr ""))
   (lib (name "Module_extlib")(type "KiCad")(uri "${KICAD_USER_LIB_DIR}\Lib\Module_extlib\Module_extlib.pretty")(options "")(descr ""))
+  (lib (name "Resistor_SMD_extlib")(type "KiCad")(uri "${KICAD_USER_LIB_DIR}\Lib\Resistor_SMD_extlib\Resistor_SMD_extlib.pretty")(options "")(descr ""))
   (lib (name "RF_Antenna_extlib")(type "KiCad")(uri "${KICAD_USER_LIB_DIR}\Lib\RF_Antenna_extlib\RF_Antenna_extlib.pretty")(options "")(descr ""))
   (lib (name "RF_Converter_extlib")(type "KiCad")(uri "${KICAD_USER_LIB_DIR}\Lib\RF_Converter_extlib\RF_Converter_extlib.pretty")(options "")(descr ""))
   (lib (name "RF_GNSS_extlib")(type "KiCad")(uri "${KICAD_USER_LIB_DIR}\Lib\RF_GNSS_extlib\RF_GNSS_extlib.pretty")(options "")(descr ""))

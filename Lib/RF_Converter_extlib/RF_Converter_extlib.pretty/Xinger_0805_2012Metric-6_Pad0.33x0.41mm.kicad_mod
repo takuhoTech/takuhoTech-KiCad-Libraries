@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "https://www.ttm.com/en/solutions/rfs-components/xinger-components")
-	(tags "coupler rf balun divider PD0922J5050S2HF DC4759J5020AHF")
+	(tags "coupler rf balun divider PD0922J5050S2HF DC4759J5020AHF FC0603E1000BTBSxx")
 	(property "Reference" "REF**"
 		(at 0 -1.95 0)
 		(layer "F.SilkS")
