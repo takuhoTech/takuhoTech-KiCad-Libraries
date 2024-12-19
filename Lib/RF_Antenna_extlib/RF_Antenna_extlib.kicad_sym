@@ -251,7 +251,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -262,9 +262,9 @@
 		)
 		(symbol "GPDF6010.A_2_1"
 			(pin passive line
-				(at -2.54 -5.08 90)
-				(length 2.54)
-				(name "GND"
+				(at 7.62 2.54 180)
+				(length 5.08)
+				(name "LB1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -280,9 +280,9 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 2.54 180)
+				(at 7.62 -2.54 180)
 				(length 5.08)
-				(name "LB1"
+				(name "LB2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -298,9 +298,9 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -2.54 180)
-				(length 5.08)
-				(name "LB2"
+				(at -2.54 -5.08 90)
+				(length 2.54)
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
