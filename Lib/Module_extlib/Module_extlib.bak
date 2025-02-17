@@ -2224,35 +2224,27 @@
 					(type none)
 				)
 			)
-			(pin passive line
-				(at 10.16 -2.54 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
+			(text "PoE"
+				(at 3.81 10.16 0)
+				(effects
+					(font
+						(size 1.905 1.905)
+						(thickness 0.381)
+						(bold yes)
 					)
 				)
 			)
 			(pin passive line
-				(at 10.16 0 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
-				(name "~"
+				(name "Pin_53"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "53"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2263,14 +2255,14 @@
 			(pin passive line
 				(at 10.16 2.54 180)
 				(length 2.54)
-				(name "~"
+				(name "Pin_54"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "54"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2279,16 +2271,34 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 5.08 180)
+				(at 10.16 0 180)
 				(length 2.54)
-				(name "~"
+				(name "Pin_55"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "55"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -2.54 180)
+				(length 2.54)
+				(name "Pin_56"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "56"
 					(effects
 						(font
 							(size 1.27 1.27)

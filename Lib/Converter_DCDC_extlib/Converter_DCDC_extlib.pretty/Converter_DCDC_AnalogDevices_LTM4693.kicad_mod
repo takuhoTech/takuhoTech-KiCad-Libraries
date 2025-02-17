@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "LTM4693"
+	(property "Value" "Converter_DCDC_AnalogDevices_LTM4693"
 		(at 0 3 0)
 		(unlocked yes)
 		(layer "F.Fab")
