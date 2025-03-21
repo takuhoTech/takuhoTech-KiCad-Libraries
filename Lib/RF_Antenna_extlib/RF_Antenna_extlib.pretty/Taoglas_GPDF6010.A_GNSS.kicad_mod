@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "GPDF6010.A"
+	(property "Value" "Taoglas_GPDF6010.A_GNSS"
 		(at 0 -17.5 0)
 		(unlocked yes)
 		(layer "F.Fab")

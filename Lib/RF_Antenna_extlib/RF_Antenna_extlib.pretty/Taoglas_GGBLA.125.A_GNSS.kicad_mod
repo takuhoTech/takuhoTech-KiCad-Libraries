@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "GGBLA.125.A"
+	(property "Value" "Taoglas_GGBLA.125.A_GNSS"
 		(at 0 2.5 0)
 		(layer "F.Fab")
 		(uuid "dabc082f-ee49-4109-9f33-bf7be94a5e9d")
