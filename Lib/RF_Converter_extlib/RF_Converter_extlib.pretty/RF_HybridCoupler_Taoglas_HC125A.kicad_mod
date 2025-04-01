@@ -3,6 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
+	(descr "Low Profile Hybrid Coupler for Multiband GNSS 1150-1630 MHz")
+	(tags "coupler rf GNSS L1 L2 L5 L6")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
 		(unlocked yes)
@@ -11,7 +13,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -35,7 +37,7 @@
 		(uuid "480d149e-a6c9-40dd-b179-a854387fe55a")
 		(effects
 			(font
-				(size 1 1)
+				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -48,7 +50,7 @@
 		(uuid "05d6459e-c1fe-43d4-aceb-eb863669619b")
 		(effects
 			(font
-				(size 1 1)
+				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -61,7 +63,7 @@
 		(uuid "43074310-3ee8-4040-83f4-ac2d6d7f44ea")
 		(effects
 			(font
-				(size 1 1)
+				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -77,6 +79,17 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+		)
+	)
+	(model "${KICAD_USER_LIB_DIR}/Lib/RF_Converter_extlib/RF_HybridCoupler_Taoglas_HC125A.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
 		)
 	)
 )
