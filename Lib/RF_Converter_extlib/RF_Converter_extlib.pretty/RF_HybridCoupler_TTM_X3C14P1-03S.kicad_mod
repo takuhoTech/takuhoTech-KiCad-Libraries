@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Low Profile Hybrid Coupler for Multiband GNSS 1200-1700 MHz")
-	(tags "coupler rf GNSS L1 L2 L5 L6")
+	(descr "1200-1700MHz 3dB 90deg Hybrid Coupler, 6.35x5.08mm")
+	(tags "rf hybrid coupler GNSS L1 L2 L5 L6")
 	(property "Reference" "REF**"
 		(at 0 -5.08 0)
 		(unlocked yes)
