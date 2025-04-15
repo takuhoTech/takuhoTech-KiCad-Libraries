@@ -1,7 +1,7 @@
 (footprint "Taoglas_GPDF6010.A_GNSS"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Passive All-band High Precision GNSS Stacked Dual Pin Dual Feed Patch Antenna, https://www.taoglas.com/datasheets/GPDF6010.A.pdf")
 	(tags "patch antenna GNSS L1 L2 L5 L6")
@@ -25,19 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "53a7e8cd-9a71-4cb6-b04c-e3de4258c03b")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -315,7 +302,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c47bfc0f-ae14-41f2-bd80-b1a31d286b75")
 	)
@@ -326,7 +313,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "e6ee771f-fe20-452a-9bc0-eb1217f219c4")
 	)
@@ -343,19 +330,6 @@
 			(justify left)
 		)
 	)
-	(fp_text user "Bottom layer copper cuttout OD = 3.5mm"
-		(at 0 17.5 0)
-		(unlocked yes)
-		(layer "Dwgs.User")
-		(hide yes)
-		(uuid "132b3f42-f9eb-4071-ab96-7e39b74ae5d3")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "GND"
 		(at 3.5 0 0)
 		(unlocked yes)
@@ -369,20 +343,6 @@
 			(justify left)
 		)
 	)
-	(fp_text user "Place 4.7pF capacitor here->"
-		(at -3 8.5 45)
-		(unlocked yes)
-		(layer "Dwgs.User")
-		(hide yes)
-		(uuid "1a225e5d-4707-472f-8a66-eabb0c01c26e")
-		(effects
-			(font
-				(size 0.5 0.45)
-				(thickness 0.062499)
-			)
-			(justify right)
-		)
-	)
 	(fp_text user "HB-2"
 		(at -7.25 0 0)
 		(unlocked yes)
@@ -394,33 +354,6 @@
 				(thickness 0.15)
 			)
 			(justify right)
-		)
-	)
-	(fp_text user "Place 4.7pF capacitor here->"
-		(at -8.5 3 45)
-		(unlocked yes)
-		(layer "Dwgs.User")
-		(hide yes)
-		(uuid "479b66b3-0966-4b95-8331-fc61354bd06b")
-		(effects
-			(font
-				(size 0.5 0.45)
-				(thickness 0.062499)
-			)
-			(justify right)
-		)
-	)
-	(fp_text user "All Other layers copper cuttout OD = 3mm"
-		(at 0 20 0)
-		(unlocked yes)
-		(layer "Dwgs.User")
-		(hide yes)
-		(uuid "5624bd46-136e-4e35-a700-c4d8c3cca6aa")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
 		)
 	)
 	(fp_text user "HB-1"
@@ -493,69 +426,93 @@
 		(at 0 5.5)
 		(size 1.2 1.2)
 		(drill 1)
-		(layers "*.Cu" "F.Mask")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
 		(solder_mask_margin 0.1)
 		(uuid "ba47a277-623f-4b43-b51d-44a5dc01a8f3")
-	)
-	(pad "1" smd circle
-		(at 0 5.5)
-		(size 2.2 2.2)
-		(layers "B.Cu" "B.Mask")
-		(solder_mask_margin 0.1)
-		(uuid "2ae1dbf3-b4e2-4320-97f2-4ef28ef9db45")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 1 1)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 2.2 2.2)
+				(zone_connect -1)
+			)
+		)
 	)
 	(pad "2" thru_hole circle
 		(at -5.5 0)
 		(size 1.2 1.2)
 		(drill 1)
-		(layers "*.Cu" "F.Mask")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
 		(solder_mask_margin 0.1)
 		(uuid "d691365e-8db3-4dd9-8f4c-a699884de334")
-	)
-	(pad "2" smd circle
-		(at -5.5 0)
-		(size 2.2 2.2)
-		(layers "B.Cu" "B.Mask")
-		(solder_mask_margin 0.1)
-		(uuid "6dde8ec0-2f27-4a7b-9135-3bcf27ef3a4f")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 1 1)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 2.2 2.2)
+				(zone_connect -1)
+			)
+		)
 	)
 	(pad "3" thru_hole circle
 		(at 0 -12.25)
 		(size 1.2 1.2)
 		(drill 1)
-		(layers "*.Cu" "F.Mask")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
 		(solder_mask_margin 0.1)
 		(uuid "bff2a5ae-4d54-4e30-9945-33678c70af38")
-	)
-	(pad "3" smd circle
-		(at 0 -12.25)
-		(size 2.2 2.2)
-		(layers "B.Cu" "B.Mask")
-		(solder_mask_margin 0.1)
-		(uuid "7a2d1fdd-a45e-4340-8bb8-ebcaf1f306de")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 1 1)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 2.2 2.2)
+				(zone_connect -1)
+			)
+		)
 	)
 	(pad "4" thru_hole circle
 		(at 12.25 0)
 		(size 1.2 1.2)
 		(drill 1)
-		(layers "*.Cu" "F.Mask")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
 		(solder_mask_margin 0.1)
 		(uuid "b5b0b6a8-2a75-4a29-baa4-aa0210882f06")
-	)
-	(pad "4" smd circle
-		(at 12.25 0)
-		(size 2.2 2.2)
-		(layers "B.Cu" "B.Mask")
-		(solder_mask_margin 0.1)
-		(uuid "279a1ba8-85ba-44c0-b12f-f52fed3ed654")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 1 1)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 2.2 2.2)
+				(zone_connect -1)
+			)
+		)
 	)
 	(pad "5" thru_hole circle
 		(at 0 0)
@@ -589,6 +546,10 @@
 			(pads allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -630,6 +591,10 @@
 			(pads allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -673,6 +638,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -713,6 +682,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -748,6 +721,10 @@
 			(pads allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -785,6 +762,10 @@
 			(pads allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -824,6 +805,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -860,6 +845,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -879,6 +868,7 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 	(model "${KICAD_USER_LIB_DIR}/Lib/RF_Antenna_extlib/Taoglas_GPDF6010.A_GNSS.stp"
 		(offset
 			(xyz 0 0 0)
