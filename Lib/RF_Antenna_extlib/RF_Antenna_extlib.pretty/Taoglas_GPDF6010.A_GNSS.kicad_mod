@@ -297,6 +297,17 @@
 	)
 	(fp_circle
 		(center 0 0)
+		(end 30.565 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e6ee771f-fe20-452a-9bc0-eb1217f219c4")
+	)
+	(fp_circle
+		(center 0 0)
 		(end 30.315 0)
 		(stroke
 			(width 0.1)
@@ -305,17 +316,6 @@
 		(fill no)
 		(layer "F.Fab")
 		(uuid "c47bfc0f-ae14-41f2-bd80-b1a31d286b75")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 30.565 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "e6ee771f-fe20-452a-9bc0-eb1217f219c4")
 	)
 	(fp_text user "LB-2"
 		(at 14 0 0)
