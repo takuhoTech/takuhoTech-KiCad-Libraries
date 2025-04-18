@@ -1,7 +1,7 @@
 (footprint "MMCX_Samtec_MMCX-P-P-H-ST-SM1_Male"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "RF Connector SMD")
 	(property "Reference" "REF**"
@@ -15,25 +15,13 @@
 			)
 		)
 	)
-	(property "Value" "MMCX-P-P-H-ST-SM1"
+	(property "Value" "MMCX_Samtec_MMCX-P-P-H-ST-SM1_Male"
 		(at 0 4 0)
 		(layer "F.Fab")
 		(uuid "8c27b869-f828-4970-89ec-11bc2b2a962e")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b87a1753-34f8-442d-bd1b-c4c9ac97b872")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -70,9 +58,9 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "19d94d19-e4e0-4763-90f1-8762c8a375b6")
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "c91a37a1-c179-407f-83e0-3dfed4dee65a")
 	)
 	(fp_line
 		(start -1.75 -0.381)
@@ -111,9 +99,9 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "c91a37a1-c179-407f-83e0-3dfed4dee65a")
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "19d94d19-e4e0-4763-90f1-8762c8a375b6")
 	)
 	(fp_line
 		(start -2.286 -2.286)
@@ -246,7 +234,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "e21648c3-d781-4d08-bc04-6b0a409656b5")
 	)
@@ -270,7 +258,7 @@
 	(pad "2" smd custom
 		(at -1.375 -1.375 180)
 		(size 0.425 0.425)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -289,7 +277,7 @@
 	(pad "2" smd custom
 		(at -1.375 1.375 270)
 		(size 0.425 0.425)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -308,7 +296,7 @@
 	(pad "2" smd custom
 		(at 1.375 -1.375 90)
 		(size 0.425 0.425)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -327,7 +315,7 @@
 	(pad "2" smd custom
 		(at 1.375 1.375)
 		(size 0.425 0.425)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -361,6 +349,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -378,6 +370,7 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 	(model "${KICAD_USER_LIB_DIR}/Lib/Connector_Coaxial_extlib/MMCX_Samtec_MMCX-P-P-H-ST-SM1_Male.stp"
 		(offset
 			(xyz 0 0 0)

@@ -1,7 +1,7 @@
 (footprint "MMCX_Molex_0734152063_Female"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "RF Connector SMD")
 	(property "Reference" "REF**"
@@ -15,25 +15,13 @@
 			)
 		)
 	)
-	(property "Value" "0734152063"
+	(property "Value" "MMCX_Molex_0734152063_Female"
 		(at 0 3 0)
 		(layer "F.Fab")
 		(uuid "8c27b869-f828-4970-89ec-11bc2b2a962e")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2d0a4972-1554-4bf8-9796-ed73f349cdf1")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -70,9 +58,9 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "19d94d19-e4e0-4763-90f1-8762c8a375b6")
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "c91a37a1-c179-407f-83e0-3dfed4dee65a")
 	)
 	(fp_line
 		(start -1.725 -0.5)
@@ -111,9 +99,9 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "c91a37a1-c179-407f-83e0-3dfed4dee65a")
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "19d94d19-e4e0-4763-90f1-8762c8a375b6")
 	)
 	(fp_line
 		(start -2.032 -2.032)
@@ -215,7 +203,7 @@
 	(pad "2" smd roundrect
 		(at -1.32 -1.32 90)
 		(size 0.94 0.94)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0)
 		(chamfer_ratio 0.1382978723)
 		(chamfer bottom_left)
@@ -224,7 +212,7 @@
 	(pad "2" smd roundrect
 		(at -1.32 1.32 90)
 		(size 0.94 0.94)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0)
 		(chamfer_ratio 0.1382978723)
 		(chamfer bottom_right)
@@ -233,7 +221,7 @@
 	(pad "2" smd roundrect
 		(at 1.32 -1.32 90)
 		(size 0.94 0.94)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0)
 		(chamfer_ratio 0.1382978723)
 		(chamfer top_left)
@@ -242,7 +230,7 @@
 	(pad "2" smd roundrect
 		(at 1.32 1.32 90)
 		(size 0.94 0.94)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0)
 		(chamfer_ratio 0.1382978723)
 		(chamfer top_right)
@@ -266,6 +254,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -283,6 +275,7 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 	(model "${KICAD_USER_LIB_DIR}/Lib/Connector_Coaxial_extlib/MMCX_Molex_0734152063_Female.stp"
 		(offset
 			(xyz 0 0 5)

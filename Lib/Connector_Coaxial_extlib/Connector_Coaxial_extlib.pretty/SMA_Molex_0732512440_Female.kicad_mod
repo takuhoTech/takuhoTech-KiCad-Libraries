@@ -1,7 +1,7 @@
 (footprint "SMA_Molex_0732512440_Female"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "RF Connector edge")
 	(property "Reference" "REF**"
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "0732512440"
+	(property "Value" "SMA_Molex_0732512440_Female"
 		(at 0 6 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7fd99dcb-1fc6-4d78-bc7d-557a24bfbb88")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -170,7 +158,7 @@
 	(pad "1" smd rect
 		(at 1.185 0)
 		(size 1.97 0.61)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "076c25e9-864b-482a-8f85-d81ad54f14c4")
 	)
 	(pad "2" thru_hole circle
@@ -189,6 +177,7 @@
 		(remove_unused_layers no)
 		(uuid "c98d46d7-7371-4c27-96db-10a42ca76dff")
 	)
+	(embedded_fonts no)
 	(model "${KICAD_USER_LIB_DIR}/Lib/Connector_Coaxial_extlib/SMA_Molex_0732512440_Female.stp"
 		(offset
 			(xyz 0 0 0)
