@@ -1,8 +1,9 @@
-(footprint "SMA_Molex_0732512440_Female"
+(footprint "SMA_Molex_732512440_Female_Embed"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "50 Ohms, SMA Jack, Edge Mount, 0.76µm Gold Center Contact Plating, https://www.molex.com/ja-jp/products/part-detail/732512440")
 	(tags "RF Connector edge")
 	(property "Reference" "REF**"
 		(at 0 -8 0)
@@ -16,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "SMA_Molex_0732512440_Female"
+	(property "Value" "SMA_Molex_732512440_Female_Embed"
 		(at 0 6 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -32,7 +33,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "16249f71-3f1f-462b-83aa-9058d3eeb491")
+		(uuid "5d7c86b3-4fc0-48eb-9dbb-f4b20f405489")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +45,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "db26034e-6ed6-44f8-abb6-be3636358675")
+		(uuid "a11da810-0cae-449e-8d45-b01a0af9451f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,28 +55,18 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start 0 -3.175)
-		(end -1.66 -3.175)
+		(start 1.66 -3.175)
+		(end 0 -3.175)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(layer "Dwgs.User")
+		(layer "Edge.Cuts")
 		(uuid "8bd6021a-7c8d-4d96-a1c5-d8382b0dff4a")
 	)
 	(fp_line
-		(start 0 3.175)
-		(end -1.66 3.175)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "463eb349-9c87-451a-8135-e0390f4fdf64")
-	)
-	(fp_line
-		(start 0 3.175)
-		(end 0 -3.175)
+		(start 1.66 2.175)
+		(end 1.66 -2.175)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -84,8 +75,40 @@
 		(uuid "5e24e6e5-7a69-4ef0-a3e0-ab59238638f7")
 	)
 	(fp_line
-		(start -9.53 -4.5)
-		(end -9.53 4.5)
+		(start 1.66 3.175)
+		(end 0 3.175)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "463eb349-9c87-451a-8135-e0390f4fdf64")
+	)
+	(fp_arc
+		(start 1.66 -3.175)
+		(mid 2.16 -2.675)
+		(end 1.66 -2.175)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "64b3b076-d280-4555-9794-6e7069b77bad")
+	)
+	(fp_arc
+		(start 1.66 2.175)
+		(mid 2.16 2.675)
+		(end 1.66 3.175)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ddfde03f-a856-43b3-ac44-cebcf981d638")
+	)
+	(fp_line
+		(start -7.87 -4.5)
+		(end -7.87 4.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -94,8 +117,8 @@
 		(uuid "c468d958-79af-4398-b953-1d3b190eb798")
 	)
 	(fp_line
-		(start 0 -4.5)
-		(end -9.53 -4.5)
+		(start 1.66 -4.5)
+		(end -7.87 -4.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -104,8 +127,8 @@
 		(uuid "d6e35c08-3dfb-4981-b6f7-32ddf12db10e")
 	)
 	(fp_line
-		(start 0 4.5)
-		(end -9.53 4.5)
+		(start 1.66 4.5)
+		(end -7.87 4.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -114,8 +137,8 @@
 		(uuid "533db375-15fb-461a-b9cb-52c6397947c0")
 	)
 	(fp_line
-		(start 5 -4.5)
-		(end 0 -4.5)
+		(start 6.66 -4.5)
+		(end 1.66 -4.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -124,8 +147,8 @@
 		(uuid "95c4b61f-b7eb-41d7-b6ad-2b855e2221e8")
 	)
 	(fp_line
-		(start 5 -4.5)
-		(end 5 4.5)
+		(start 6.66 -4.5)
+		(end 6.66 4.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -134,8 +157,8 @@
 		(uuid "1a0fb064-3dbb-4b7c-9832-e3f2e48782ef")
 	)
 	(fp_line
-		(start 5 4.5)
-		(end 0 4.5)
+		(start 6.66 4.5)
+		(end 1.66 4.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -156,13 +179,13 @@
 		)
 	)
 	(pad "1" smd rect
-		(at 1.185 0)
+		(at 2.845 0)
 		(size 1.97 0.61)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "076c25e9-864b-482a-8f85-d81ad54f14c4")
 	)
 	(pad "2" thru_hole circle
-		(at 3.31 -2.77)
+		(at 4.97 -2.77)
 		(size 2.52 2.52)
 		(drill 1.52)
 		(layers "*.Cu" "*.Mask")
@@ -170,7 +193,7 @@
 		(uuid "c98e2861-a9dd-4d32-89e7-f2dbda8ab5c5")
 	)
 	(pad "2" thru_hole circle
-		(at 3.31 2.77)
+		(at 4.97 2.77)
 		(size 2.52 2.52)
 		(drill 1.52)
 		(layers "*.Cu" "*.Mask")
@@ -178,9 +201,9 @@
 		(uuid "c98d46d7-7371-4c27-96db-10a42ca76dff")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_USER_LIB_DIR}/Lib/Connector_Coaxial_extlib/SMA_Molex_0732512440_Female.stp"
+	(model "${KICAD_USER_LIB_DIR}/Lib/Connector_Coaxial_extlib/SMA_Molex_732512440_Female.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 1.66 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

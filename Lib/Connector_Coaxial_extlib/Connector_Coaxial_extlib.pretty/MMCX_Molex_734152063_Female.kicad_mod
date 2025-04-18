@@ -1,8 +1,9 @@
-(footprint "MMCX_Molex_0734152063_Female"
+(footprint "MMCX_Molex_734152063_Female"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "50 Ohms, MMCX Vertical Jack, PCB Surface Mount, Plating per Commercial Requirements, Tape and Reel, https://www.molex.com/ja-jp/products/part-detail/734152063")
 	(tags "RF Connector SMD")
 	(property "Reference" "REF**"
 		(at 0 -5 0)
@@ -15,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "MMCX_Molex_0734152063_Female"
+	(property "Value" "MMCX_Molex_734152063_Female"
 		(at 0 3 0)
 		(layer "F.Fab")
 		(uuid "8c27b869-f828-4970-89ec-11bc2b2a962e")
@@ -276,7 +277,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD_USER_LIB_DIR}/Lib/Connector_Coaxial_extlib/MMCX_Molex_0734152063_Female.stp"
+	(model "${KICAD_USER_LIB_DIR}/Lib/Connector_Coaxial_extlib/MMCX_Molex_734152063_Female.stp"
 		(offset
 			(xyz 0 0 5)
 		)
