@@ -71,6 +71,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "Connector*:*_1x03-1MP*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "Battery_NTC_MountingPin_1_1"
 			(rectangle
 				(start -2.286 1.778)
