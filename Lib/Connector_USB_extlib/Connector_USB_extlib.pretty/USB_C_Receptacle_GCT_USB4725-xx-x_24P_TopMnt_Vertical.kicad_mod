@@ -1,12 +1,12 @@
-(footprint "USB_C_Receptacle_GCT_USB4725-03-C_24P_TopMnt_Vertical"
+(footprint "USB_C_Receptacle_GCT_USB4725-xx-x_24P_TopMnt_Vertical"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "IP67 Type C USB 3.2 Gen 2 Connector, https://gct.co/connector/usb4725")
-	(tags "USB C Type-C Receptacle SMD waterproof")
+	(tags "USB C Type-C Receptacle SMD waterproof USB4725-03-C")
 	(property "Reference" "REF**"
-		(at 0 -5.08 0)
+		(at 0 -3.81 0)
 		(layer "F.SilkS")
 		(uuid "f51c7a5d-9c39-4b5c-b26a-4962f882e5af")
 		(effects
@@ -16,8 +16,8 @@
 			)
 		)
 	)
-	(property "Value" "USB_C_Receptacle_GCT_USB4725-03-C_24P_TopMnt_Vertical"
-		(at 0 5.08 0)
+	(property "Value" "USB_C_Receptacle_GCT_USB4725-xx-x_24P_TopMnt_Vertical"
+		(at 0 3.81 0)
 		(layer "F.Fab")
 		(uuid "3083dc31-0746-4d4b-b1bc-704aad1f962d")
 		(effects
@@ -54,6 +54,66 @@
 		)
 	)
 	(attr smd)
+	(fp_line
+		(start -6.2 -3.3)
+		(end 6.2 -3.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "689489e7-b418-439f-aecf-5505b2efade6")
+	)
+	(fp_line
+		(start -6.2 3.3)
+		(end -6.2 -3.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b8988726-7032-4a42-adba-4116e0315663")
+	)
+	(fp_line
+		(start 6.2 -3.3)
+		(end 6.2 3.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "278e5bf2-5a11-46a8-8097-02f216cb8a83")
+	)
+	(fp_line
+		(start 6.2 3.3)
+		(end -6.2 3.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "efc29a93-1c93-40df-ab57-46b118fe7a5c")
+	)
+	(fp_line
+		(start -5.7 1.8)
+		(end -5.7 -1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "afc8b2b4-7578-443a-b228-86f59752b022")
+	)
+	(fp_line
+		(start -4.7 -2.8)
+		(end 4.7 -2.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0675d30a-b447-43a5-b0b4-3db0de33887b")
+	)
 	(fp_line
 		(start -2.89 1.58)
 		(end 2.89 1.58)
@@ -94,6 +154,48 @@
 		(layer "F.Fab")
 		(uuid "3e60d1a2-bbc3-478a-bd1a-757741907e9c")
 	)
+	(fp_line
+		(start 4.7 2.8)
+		(end -4.7 2.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9fbaeca0-1a20-4864-9bdd-89ad8470f305")
+	)
+	(fp_line
+		(start 5.7 -1.8)
+		(end 5.7 1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "131f681c-6032-463c-86b2-5fe99a99878f")
+	)
+	(fp_arc
+		(start -5.7 -1.8)
+		(mid -5.407107 -2.507107)
+		(end -4.7 -2.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c3362399-05b1-4302-890b-371a63036f38")
+	)
+	(fp_arc
+		(start -4.7 2.8)
+		(mid -5.407107 2.507107)
+		(end -5.7 1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "090a9c3c-0bfa-4282-842b-0604ae700f3f")
+	)
 	(fp_arc
 		(start -2.89 1.58)
 		(mid -4.47 0)
@@ -116,8 +218,30 @@
 		(layer "F.Fab")
 		(uuid "4957628a-0487-4b2e-9e46-2b76a5391512")
 	)
+	(fp_arc
+		(start 4.7 -2.8)
+		(mid 5.407107 -2.507107)
+		(end 5.7 -1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ebd6c600-a87c-4880-bc66-8a7e702299fe")
+	)
+	(fp_arc
+		(start 5.7 1.8)
+		(mid 5.407107 2.507107)
+		(end 4.7 2.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8055652f-6c42-4daf-ad96-d6b8f78f33f5")
+	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -5.08 0)
+		(at 0 -3.81 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "34b014e2-2f36-44c5-ae18-6c7635d94797")
@@ -323,7 +447,7 @@
 		(uuid "ef1175f6-e4fe-4e57-9600-b77269a0133b")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_USER_LIB_DIR}/Lib/Connector_USB_extlib/USB_C_Receptacle_GCT_USB4725-03-C_24P_TopMnt_Vertical.stp"
+	(model "${KICAD_USER_LIB_DIR}/Lib/Connector_USB_extlib/USB_C_Receptacle_GCT_USB4725-xx-x_24P_TopMnt_Vertical.stp"
 		(offset
 			(xyz 0 0 0)
 		)
