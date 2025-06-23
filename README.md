@@ -9,4 +9,4 @@ KiCadやsparkfunのリポジトリなど,footprintとsymbolが別々の枝にあ
 
 詳細ははてなブログの記事を参照してください.
 
-https://takuhotech.hatenablog.com/entry/2025/03/10/214504?_gl=1*ld61q*_gcl_au*NjA3ODE1MDc4LjE3NDk5MDQyMjM.
+https://takuhotech.hatenablog.com/entry/2025/03/10/214504
