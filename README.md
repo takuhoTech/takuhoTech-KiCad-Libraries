@@ -14,3 +14,7 @@ KiCad symbol & footprint libraries with lib-table generator
    パスは `D:\GitHub\takuhoTech-KiCad-Libraries` のように `table_generator.pyw` が置かれているディレクトリを設定してください.
 
    異なる環境で同じライブラリテーブルを使えるようにするために環境変数を利用しています.
+
+詳細は次のブログ記事を参照してください.
+
+https://takuhotech.hatenablog.com/entry/2025/03/10/214504
