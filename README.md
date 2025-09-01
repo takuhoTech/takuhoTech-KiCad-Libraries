@@ -5,7 +5,6 @@ KiCad symbol & footprint & design-block libraries with lib-table generator
 このリポジトリには次の要素が含まれます.
 - takuhoTech謹製KiCad部品ライブラリ
 - 複数のKiCadプロジェクトに（グローバルライブラリを使わずに）共通の部品ライブラリを読み込ませるためのツール
-  
   - ライブラリテーブルの手動入力が一切不要になります. 画像のテーブルのライブラリ名とパスは全て自動で入力されたものです.
 
 <img width="757" height="313" alt="image" src="https://github.com/user-attachments/assets/f7891152-8964-4a21-b111-2ebbee7cef40" />
@@ -30,20 +29,18 @@ KiCad symbol & footprint & design-block libraries with lib-table generator
    
    <img width="295" height="197" alt="image" src="https://github.com/user-attachments/assets/4ae793d1-303a-4c20-8e66-22eebcc3884e" />
    
-5. KiCadの「パスを設定」で環境変数を設定します.
-   
-   名前は `KICAD_USER_LIB_DIR`
-   
-   パスは `D:\GitHub\takuhoTech-KiCad-Libraries` のように `table_generator.pyw` が置かれているディレクトリを設定してください.
-
-   `takuhoTech-KiCad-Libraries` への絶対パスが異なる複数の環境で同じライブラリテーブルを使えるようにするために環境変数を利用しています.
+4. KiCadの「パスを設定」で環境変数を設定します.
+   - 名前は `KICAD_USER_LIB_DIR`
+   - パスは `D:\GitHub\takuhoTech-KiCad-Libraries` のように `table_generator.pyw` が置かれているディレクトリを設定してください.
+   - `takuhoTech-KiCad-Libraries` への絶対パスが異なる複数の環境で同じライブラリテーブルを使えるようにするために環境変数を利用しています.
 
 ## takuhoTech謹製KiCad部品ライブラリについて
 - 高周波コンポーネントが多めです.
 - 部品の種類ごとにカテゴリ分けしてからシンボルとフットプリントに分けることで管理しやすくしています.
-  
-  - シンボルとフットプリントに分けてからそれぞれカテゴリ分けしてあっても問題なくライブラリテーブルは生成されます.
-- ライブラリ名の末尾に一律で`extlib`を付けることで検索しやすくしています.
+  - 始めにシンボルとフットプリントに分けられていても問題なくライブラリテーブルは生成されます.
+- ライブラリの名称を`KiCadに元からあるライブラリ名 + extlib`で統一することで次のような利点があります.
+  - 公式ライブラリが増えたかのように検索できる.
+  - `extlib`で検索することで読み込んだライブラリを一覧で表示できる.
 - 部品ライブラリが不要な場合は `table_generator.pyw` だけダウンロードして使ってください.
 
 ## Reference
