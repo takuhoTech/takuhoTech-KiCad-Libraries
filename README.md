@@ -6,12 +6,12 @@ KiCad symbol & footprint & design-block libraries with lib-table generator
 - takuhoTech謹製KiCad部品ライブラリ
 - 複数のKiCadプロジェクトに（グローバルライブラリを使わずに）共通の部品ライブラリを読み込ませるためのツール
   - ライブラリテーブルの手動入力が一切不要になります. 画像のテーブルのライブラリ名とパスは全て自動で入力されたものです.
+  - KiCadプロジェクトごとに固有の部品ライブラリを紐付ける従来の方法に比べ再利用性が高く効率的です.
 
 <img width="757" height="313" alt="image" src="https://github.com/user-attachments/assets/f7891152-8964-4a21-b111-2ebbee7cef40" />
 
 ## Usage
 `table_generator.pyw` を実行すると, このスクリプトが置かれているディレクトリ以下にある次のファイルとフォルダを検索し, KiCad用のライブラリテーブルを自動で生成します.
-
 - `.kicad_sym`ファイル（シンボルライブラリ）
 - `.pretty`フォルダ（フットプリントライブラリ）
 - `.kicad_blocks`フォルダ（デザインブロックライブラリ）
@@ -44,6 +44,6 @@ KiCad symbol & footprint & design-block libraries with lib-table generator
 - 部品ライブラリが不要な場合は `table_generator.pyw` だけダウンロードして使ってください.
 
 ## Reference
-詳細は次のブログ記事を参照してください.
+ブログ記事にちょっとだけ追加情報が書いてあります.
 
 https://takuhotech.hatenablog.com/entry/2025/03/10/214504
