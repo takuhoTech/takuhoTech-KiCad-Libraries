@@ -1,5 +1,5 @@
 # takuhoTech-KiCad-Libraries
-KiCad symbol & footprint libraries with lib-table generator
+KiCad symbol & footprint & design-block libraries with lib-table generator
 
 ## Overview
 複数のKiCadプロジェクト間で（グローバルライブラリを使わずに）共通の部品ライブラリを使うためのツールです.
