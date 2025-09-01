@@ -4,7 +4,7 @@ KiCad symbol & footprint libraries with lib-table generator
 ## Overview
 複数のKiCadプロジェクト間で（グローバルライブラリを使わずに）共通の部品ライブラリを使うためのツールです.
 
-ライブラリテーブルの手動入力が一切不要になります. 次のテーブルのライブラリ名とパスは全て自動で入力されたものです.
+ライブラリテーブルの手動入力が一切不要になります. 画像のテーブルのライブラリ名とパスは全て自動で入力されたものです.
 
 <img width="1514" height="996" alt="image" src="https://github.com/user-attachments/assets/3e6103c1-8c46-4056-b2b3-435ff5173972" />
 
