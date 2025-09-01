@@ -2,7 +2,7 @@
 KiCad symbol & footprint & design-block libraries with lib-table generator
 
 ## Overview
-複数のKiCadプロジェクト間で（グローバルライブラリを使わずに）共通の部品ライブラリを管理するためのツールです.
+複数のKiCadプロジェクトに（グローバルライブラリを使わずに）共通の部品ライブラリを読み込ませるためのツールです.
 
 ライブラリテーブルの手動入力が一切不要になります. 画像のテーブルのライブラリ名とパスは全て自動で入力されたものです.
 
@@ -24,6 +24,7 @@ KiCad symbol & footprint & design-block libraries with lib-table generator
    - `design-block-lib-table`（デザインブロックライブラリテーブル）
    
    既存のライブラリテーブルは上書きされるので注意してください. 見つかったライブラリの数が表示されています.
+   パスに日本語が含まれている場合にライブラリが見つからないことがあります.
    
    <img width="295" height="197" alt="image" src="https://github.com/user-attachments/assets/4ae793d1-303a-4c20-8e66-22eebcc3884e" />
    
