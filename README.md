@@ -3,6 +3,8 @@ KiCad symbol & footprint libraries with lib-table generator
 
 `table_generator.pyw` を実行すると, このスクリプトが置かれているディレクトリ以下にある `.kicad_sym`ファイル（シンボルライブラリ）および `.pretty`フォルダ（フットプリントライブラリ）を検索し, KiCad用のライブラリテーブルを自動で生成します.
 
+<img width="1514" height="996" alt="image" src="https://github.com/user-attachments/assets/3e6103c1-8c46-4056-b2b3-435ff5173972" />
+
 ## How to use
 1. `table_generator.pyw` を実行します.
 2. ファイル選択ダイアログで `.kicad_pro`ファイル（KiCadプロジェクトファイル）を選択します.
