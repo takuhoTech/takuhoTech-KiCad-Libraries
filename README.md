@@ -27,7 +27,7 @@ KiCad symbol & footprint & design-block libraries with lib-table generator
    
    が生成されます. 既存のライブラリテーブルは上書きされるので注意してください.
    
-   <img width="590" height="394" alt="image" src="https://github.com/user-attachments/assets/4ae793d1-303a-4c20-8e66-22eebcc3884e" />
+   <img width="295" height="197" alt="image" src="https://github.com/user-attachments/assets/4ae793d1-303a-4c20-8e66-22eebcc3884e" />
    
 5. KiCadの「パスを設定」で環境変数を設定します.
    
