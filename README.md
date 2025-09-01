@@ -5,8 +5,8 @@ KiCad symbol & footprint & design-block libraries with lib-table generator
 このリポジトリには次の要素が含まれます.
 - takuhoTech謹製KiCad部品ライブラリ
 - 複数のKiCadプロジェクトに（グローバルライブラリを使わずに）共通の部品ライブラリを読み込ませるためのツール
-  - ライブラリテーブルの手動入力が一切不要になります. 画像のテーブルのライブラリ名とパスは全て自動で入力されたものです.
   - KiCadプロジェクトごとに固有の部品ライブラリを紐付ける従来の方法に比べ再利用性が高く効率的です.
+  - ライブラリテーブルの手動入力が一切不要になります. 画像のテーブルのライブラリ名とパスは全て自動で入力されたものです.
 
 <img width="757" height="313" alt="image" src="https://github.com/user-attachments/assets/f7891152-8964-4a21-b111-2ebbee7cef40" />
 
