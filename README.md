@@ -2,11 +2,11 @@
 KiCad symbol & footprint & design-block libraries with lib-table generator
 
 ## Overview
-複数のKiCadプロジェクト間で（グローバルライブラリを使わずに）共通の部品ライブラリを使うためのツールです.
+複数のKiCadプロジェクト間で（グローバルライブラリを使わずに）共通の部品ライブラリを管理するためのツールです.
 
 ライブラリテーブルの手動入力が一切不要になります. 画像のテーブルのライブラリ名とパスは全て自動で入力されたものです.
 
-<img width="1514" height="996" alt="image" src="https://github.com/user-attachments/assets/3e6103c1-8c46-4056-b2b3-435ff5173972" />
+<img width="757" height="313" alt="image" src="https://github.com/user-attachments/assets/f7891152-8964-4a21-b111-2ebbee7cef40" />
 
 ## Usage
 `table_generator.pyw` を実行すると, このスクリプトが置かれているディレクトリ以下にある
@@ -20,8 +20,16 @@ KiCad symbol & footprint & design-block libraries with lib-table generator
 ## Features
 1. `table_generator.pyw` を実行します.
 2. ファイル選択ダイアログで `.kicad_pro`ファイル（KiCadプロジェクトファイル）を選択します.
-3. プロジェクトフォルダに `sym-lib-table`（シンボルライブラリテーブル）と `fp-lib-table`（フットプリントライブラリテーブル）が生成されます. 既存のライブラリテーブルは上書きされるので注意してください.
-4. KiCadの「パスを設定」で環境変数を設定します.
+3. 見つかったライブラリの数が表示され, プロジェクトフォルダに
+   - `sym-lib-table`（シンボルライブラリテーブル）
+   - `fp-lib-table`（フットプリントライブラリテーブル）
+   - `design-block-lib-table`（デザインブロックライブラリテーブル）
+   
+   が生成されます. 既存のライブラリテーブルは上書きされるので注意してください.
+   
+   <img width="590" height="394" alt="image" src="https://github.com/user-attachments/assets/4ae793d1-303a-4c20-8e66-22eebcc3884e" />
+   
+5. KiCadの「パスを設定」で環境変数を設定します.
    
    名前は `KICAD_USER_LIB_DIR`
    
