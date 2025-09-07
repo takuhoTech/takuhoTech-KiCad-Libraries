@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Passive All-band High Precision GNSS Stacked Dual Pin Dual Feed Patch Antenna, https://www.taoglas.com/datasheets/GPDF6010.A.pdf")
-	(tags "patch antenna GNSS L1 L2 L5 L6")
+	(tags "RF RHCP patch antenna GPS GNSS RTK CLAS")
 	(property "Reference" "REF**"
 		(at 0 -22.5 0)
 		(unlocked yes)

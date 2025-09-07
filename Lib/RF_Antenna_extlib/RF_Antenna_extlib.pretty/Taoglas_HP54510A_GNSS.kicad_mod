@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Passive Multiband High Precision GNSS L1/L5 Stacked Patch Antenna")
-	(tags "patch antenna GNSS L1 L5")
+	(descr "Passive Multiband High Precision GNSS L1/L5 Stacked Patch Antenna, https://www.taoglas.com/datasheets/HP54510A.pdf")
+	(tags "RF RHCP patch antenna GPS GNSS RTK")
 	(property "Reference" "REF**"
 		(at 0 -26 0)
 		(unlocked yes)
