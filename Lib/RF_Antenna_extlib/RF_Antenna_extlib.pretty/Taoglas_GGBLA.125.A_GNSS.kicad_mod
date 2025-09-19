@@ -6,7 +6,7 @@
 	(descr "Passive All-band High Precision GNSS Ceramic Loop Antenna, https://www.taoglas.com/datasheets/GGBLA.125.A.pdf")
 	(tags "RF LP loop antenna GPS GNSS RTK CLAS")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 0 -3 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "d3cb7f9f-c80b-4a15-a28f-8b9f36c1446f")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "Taoglas_GGBLA.125.A_GNSS"
-		(at 0 1 0)
+		(at 0 10 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "01c53e3e-5792-4c9b-b8b5-64172b7cc7d7")
@@ -56,8 +56,48 @@
 		)
 	)
 	(attr smd)
+	(fp_line
+		(start -5 -1.6)
+		(end 5 -1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "84386248-cddd-4aee-9e0f-36bfcb312863")
+	)
+	(fp_line
+		(start -5 1.6)
+		(end -5 -1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a4fd3722-047c-479d-ab2b-00ff2bf668b8")
+	)
+	(fp_line
+		(start 5 -1.6)
+		(end 5 1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "796831e0-52c2-43b3-895b-6ad6117ac1d3")
+	)
+	(fp_line
+		(start 5 1.6)
+		(end -5 1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f94da5d9-3fbb-4930-b334-ad320800d3c0")
+	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 0 -3 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "2923934d-133a-4ae2-a6bf-16cce4756744")

@@ -1,10 +1,10 @@
 (footprint "R_Vishay_FC0603xxxxxxTxx_0603_1608Metric_1.626x0.813mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Resistor, Vishay, 0603 (1608 Metric), Intended for use with PD0922J5050S2HF (https://www.vishay.com/en/product/60093/)")
-	(tags "chip resistor Vishay PD0922J5050S2HF FC0603E1000BTBSxx")
+	(descr "High-frequency (up to 40 GHz) thin-film resistor designed for use with the PD0922J5050S2HF power divider, https://www.vishay.com/en/product/60093/")
+	(tags "SMD chip resistor Vishay PD0922J5050S2HF FC0603E1000BTBSxx")
 	(property "Reference" "REF**"
 		(at 0 -1.43 0)
 		(layer "F.SilkS")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6f0e4074-96ae-4ea8-867e-199cfa095a90")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -181,15 +168,16 @@
 	(pad "1" smd rect
 		(at -0.66 0)
 		(size 0.41 0.917)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "958f80d5-b7aa-4100-9f8f-c88ef419994d")
 	)
 	(pad "2" smd rect
 		(at 0.66 0)
 		(size 0.41 0.917)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4e8406ae-83d8-4fb5-8c97-32a60cc665b3")
 	)
+	(embedded_fonts no)
 	(model "${KICAD_USER_LIB_DIR}/Lib/Resistor_SMD_extlib/R_Vishay_FC0603xxxxxxTxx_0603_1608Metric_1.626x0.813mm.stp"
 		(offset
 			(xyz 0 0 0)
