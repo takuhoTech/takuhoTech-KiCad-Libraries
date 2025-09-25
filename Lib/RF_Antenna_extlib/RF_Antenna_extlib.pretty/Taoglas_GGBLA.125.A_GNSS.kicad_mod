@@ -6,7 +6,7 @@
 	(descr "Passive All-band High Precision GNSS Ceramic Loop Antenna, https://www.taoglas.com/datasheets/GGBLA.125.A.pdf")
 	(tags "RF LP loop antenna GPS GNSS RTK CLAS")
 	(property "Reference" "REF**"
-		(at 0 -3 0)
+		(at 0 -4 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "d3cb7f9f-c80b-4a15-a28f-8b9f36c1446f")
@@ -57,6 +57,26 @@
 	)
 	(attr smd)
 	(fp_line
+		(start -5 1.85)
+		(end 5 1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d35f649a-fb0e-490a-ac54-67a94b09d73f")
+	)
+	(fp_line
+		(start -7.5 -1.8)
+		(end 7.5 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "1908d0a4-a707-403f-9ec9-0d37d0bf32f7")
+	)
+	(fp_line
 		(start -5 -1.6)
 		(end 5 -1.6)
 		(stroke
@@ -96,8 +116,19 @@
 		(layer "F.Fab")
 		(uuid "f94da5d9-3fbb-4930-b334-ad320800d3c0")
 	)
+	(fp_text user "PCB Edge"
+		(at 0 -2.25 0)
+		(layer "Dwgs.User")
+		(uuid "60a012c5-906c-4bbd-9a17-493f7bef38d8")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -3 0)
+		(at 0 -4 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "2923934d-133a-4ae2-a6bf-16cce4756744")
@@ -105,6 +136,86 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 6.1 2.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9ee7b679-12d3-4f36-aec8-88bc89f17f50")
+	)
+	(pad "2" smd custom
+		(at -4.625 0)
+		(size 1.35 2.9)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_rect
+				(start -2.375 -1.45)
+				(end -0.575 -0.45)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "ba6ea94a-d12c-40d6-a167-858c36dc433c")
+	)
+	(pad "3" smd custom
+		(at 4.625 0)
+		(size 1.35 2.9)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_rect
+				(start 0.575 -1.45)
+				(end 2.375 -0.45)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "31d5e8f3-d871-482a-a95d-7cfa43c0fdc5")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "131bcf0b-ee12-4699-a0e0-10b2e202a9e4")
+		(name "Antenna Keep-Out Area")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -7.5 -1.8) (xy 7.5 -1.8) (xy 7.5 8.35) (xy -7.5 8.35)
 			)
 		)
 	)

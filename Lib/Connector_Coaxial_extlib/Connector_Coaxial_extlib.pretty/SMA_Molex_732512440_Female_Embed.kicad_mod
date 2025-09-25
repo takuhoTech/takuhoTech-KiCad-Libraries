@@ -58,7 +58,7 @@
 		(start 1.66 -3.175)
 		(end 0 -3.175)
 		(stroke
-			(width 0.12)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
@@ -68,7 +68,7 @@
 		(start 1.66 2.175)
 		(end 1.66 -2.175)
 		(stroke
-			(width 0.12)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
@@ -78,7 +78,7 @@
 		(start 1.66 3.175)
 		(end 0 3.175)
 		(stroke
-			(width 0.12)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
@@ -89,7 +89,7 @@
 		(mid 2.16 -2.675)
 		(end 1.66 -2.175)
 		(stroke
-			(width 0.12)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
@@ -100,7 +100,7 @@
 		(mid 2.16 2.675)
 		(end 1.66 3.175)
 		(stroke
-			(width 0.12)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
@@ -165,6 +165,17 @@
 		)
 		(layer "F.CrtYd")
 		(uuid "0b2c1f2e-ae9e-491c-a71b-b50cfa6e92fd")
+	)
+	(fp_text user "PCB Edge"
+		(at 1 0 90)
+		(layer "Dwgs.User")
+		(uuid "7b400fd9-6e34-4fd6-81cb-aa79f5761a0e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -6 0)

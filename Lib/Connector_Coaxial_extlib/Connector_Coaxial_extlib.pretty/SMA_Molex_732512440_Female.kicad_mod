@@ -55,33 +55,13 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start 0 -3.175)
-		(end -1.66 -3.175)
+		(start 0 4)
+		(end 0 -4)
 		(stroke
-			(width 0.12)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "8bd6021a-7c8d-4d96-a1c5-d8382b0dff4a")
-	)
-	(fp_line
-		(start 0 3.175)
-		(end -1.66 3.175)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "463eb349-9c87-451a-8135-e0390f4fdf64")
-	)
-	(fp_line
-		(start 0 3.175)
-		(end 0 -3.175)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
 		(uuid "5e24e6e5-7a69-4ef0-a3e0-ab59238638f7")
 	)
 	(fp_line
@@ -143,6 +123,17 @@
 		)
 		(layer "F.CrtYd")
 		(uuid "0b2c1f2e-ae9e-491c-a71b-b50cfa6e92fd")
+	)
+	(fp_text user "PCB Edge"
+		(at -0.5 0 90)
+		(layer "Dwgs.User")
+		(uuid "df09c790-fd65-4f69-a4fe-3af7fa262584")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -6 0)
