@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Passive All-band High Precision GNSS Ceramic Loop Antenna, https://www.taoglas.com/datasheets/GGBLA.125.A.pdf")
+	(descr "Passive All-band High Precision GNSS Ceramic Loop Antenna, https://www.taoglas.com/product/ggbla-125-a-gps-l1-l2-l5-glonass-beidou-ceramic-loop-antenna/")
 	(tags "RF LP loop antenna GPS GNSS RTK CLAS")
 	(property "Reference" "REF**"
 		(at 0 3 0)
