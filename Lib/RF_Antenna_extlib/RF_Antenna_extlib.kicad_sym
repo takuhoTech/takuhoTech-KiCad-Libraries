@@ -31,7 +31,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.taoglas.com/datasheets/GPDF6010.A.pdf"
+		(property "Datasheet" "https://www.taoglas.com/product/gpdf6010-a-all-band-high-precision-gnss-stacked-patch-antenna/"
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -57,7 +57,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "patch antenna"
+		(property "ki_keywords" "RF RHCP patch antenna GPS GNSS RTK CLAS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -223,7 +223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.taoglas.com/datasheets/HP54510A.pdf"
+		(property "Datasheet" "https://www.taoglas.com/product/hp5410a-gnss-l1-l5-stacked-patch-antenna/"
 			(at 0 -10.16 0)
 			(effects
 				(font
@@ -249,7 +249,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "patch antenna"
+		(property "ki_keywords" "RF RHCP patch antenna GPS GNSS RTK"
 			(at 0 0 0)
 			(effects
 				(font
