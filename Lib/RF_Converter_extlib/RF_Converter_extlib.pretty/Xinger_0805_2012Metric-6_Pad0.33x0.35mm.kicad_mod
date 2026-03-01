@@ -1,7 +1,7 @@
 (footprint "Xinger_0805_2012Metric-6_Pad0.33x0.35mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://www.ttm.com/en/solutions/rfs-components/xinger-components")
 	(tags "coupler rf balun divider C1015J5003AHF C0727J5003AHF")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "720d6abb-d38c-4e49-a7a8-0eefceb1b71c")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -96,7 +83,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "0e188a46-07db-42b1-95ee-434b9c99569d")
 	)
@@ -204,46 +191,47 @@
 	(pad "1" smd rect
 		(at -0.495 -0.65 270)
 		(size 0.35 0.33)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(uuid "183221b4-a493-4625-bcdd-2362ab376042")
 	)
 	(pad "2" smd rect
 		(at -0.495 0 270)
 		(size 0.35 0.33)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(uuid "f615ac6b-c2fe-4cb9-980b-ea06a5ec990f")
 	)
 	(pad "3" smd rect
 		(at -0.495 0.65 270)
 		(size 0.35 0.33)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(uuid "02882346-87ac-4b35-868f-ccc5f26de6e2")
 	)
 	(pad "4" smd rect
 		(at 0.495 0.65 270)
 		(size 0.35 0.33)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(uuid "0a72bc04-a463-4ea0-bfde-dd27fbac49ea")
 	)
 	(pad "5" smd rect
 		(at 0.495 0 270)
 		(size 0.35 0.33)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(uuid "43e9c1d1-6aa4-4bc7-8c97-4d19ed44637d")
 	)
 	(pad "6" smd rect
 		(at 0.495 -0.65 270)
 		(size 0.35 0.33)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(uuid "97ab5f6a-8026-4130-b5b7-233f45d9ab3a")
 	)
-	(model "${KICAD_USER_LIB_DIR}/Lib/RF_Converter_extlib/Xinger_0805_2012Metric-6_H0.70mm.stp"
+	(embedded_fonts no)
+	(model "${KICAD_USER_LIB_DIR}/Lib/RF_Converter_extlib/Xinger_0805_2012Metric-6_Pad0.33x0.35mm.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -251,7 +239,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 -90)
+			(xyz 0 0 0)
 		)
 	)
 )
