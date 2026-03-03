@@ -6,7 +6,7 @@
 	(descr "5-pin 1.4 x 1.1mm SAW filter package, https://www.mouser.com/catalog/specsheets/Qualcomm_B2642.pdf")
 	(tags "SAW filter diplexer duplexer 5-pin SF14 B2642")
 	(property "Reference" "REF**"
-		(at 0 1.6 0)
+		(at 0 2 0)
 		(layer "F.SilkS")
 		(uuid "9a1c557a-2bbc-4071-b09f-57337b6dd97f")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "Filter_SAW-5_1.4x1.1mm"
-		(at 0 -1.4 0)
+		(at 0 -1.5 0)
 		(layer "F.Fab")
 		(uuid "c4eaf009-03a2-40dc-a5a7-a71aab07585b")
 		(effects
@@ -55,8 +55,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -0.75 -0.6)
-		(end -0.75 0.6)
+		(start -0.85 -0.7)
+		(end -0.85 0.7)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -65,8 +65,8 @@
 		(uuid "ab7d6040-cb4b-44c4-bdda-dbaf6d89e62f")
 	)
 	(fp_line
-		(start -0.75 0.6)
-		(end 0.75 0.6)
+		(start -0.85 0.7)
+		(end 0.85 0.7)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -75,8 +75,8 @@
 		(uuid "4a0dc38e-a02b-4777-b79e-6d890cd3b3f4")
 	)
 	(fp_line
-		(start 0.75 -0.6)
-		(end -0.75 -0.6)
+		(start 0.85 -0.7)
+		(end -0.85 -0.7)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -85,8 +85,8 @@
 		(uuid "91ad67cb-6fa8-4592-8ec4-78962c04c208")
 	)
 	(fp_line
-		(start 0.75 0.6)
-		(end 0.75 -0.6)
+		(start 0.85 0.7)
+		(end 0.85 -0.7)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -96,7 +96,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -0.95 0.6) (xy -0.95 0.88) (xy -1.23 0.6) (xy -0.95 0.6)
+			(xy -0.57 0.9) (xy -0.57 1.18) (xy -0.85 0.9) (xy -0.57 0.9)
 		)
 		(stroke
 			(width 0.12)
@@ -107,8 +107,8 @@
 		(uuid "2c5ade78-8e30-4ae7-8c95-74872b8a26ae")
 	)
 	(fp_line
-		(start -0.9 -0.7)
-		(end 0.9 -0.7)
+		(start -0.9 -0.75)
+		(end 0.9 -0.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -117,8 +117,8 @@
 		(uuid "e29e9ca3-bb2e-4619-a0a6-50d67a0e8643")
 	)
 	(fp_line
-		(start -0.9 0.7)
-		(end -0.9 -0.7)
+		(start -0.9 0.75)
+		(end -0.9 -0.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -127,8 +127,8 @@
 		(uuid "c259ba0d-2abd-4388-b792-182d0d315f0b")
 	)
 	(fp_line
-		(start 0.9 -0.7)
-		(end 0.9 0.7)
+		(start 0.9 -0.75)
+		(end 0.9 0.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -137,8 +137,8 @@
 		(uuid "6c1f915b-0e74-4227-833f-2f493567f72f")
 	)
 	(fp_line
-		(start 0.9 0.7)
-		(end -0.9 0.7)
+		(start 0.9 0.75)
+		(end -0.9 0.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -217,7 +217,7 @@
 		(uuid "f6e069e0-2bff-42ff-a801-487ebb61422b")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -2.7 0)
+		(at 0 -3 0)
 		(layer "F.Fab")
 		(uuid "e3cc0670-f90c-41cd-b127-21e6c9981ddf")
 		(effects
