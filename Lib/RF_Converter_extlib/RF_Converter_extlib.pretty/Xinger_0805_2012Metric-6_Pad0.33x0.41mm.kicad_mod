@@ -65,7 +65,7 @@
 		(uuid "598a679d-1817-45ba-a10a-a7e09bdca130")
 	)
 	(fp_line
-		(start -0.005 -1.12)
+		(start 0 -1.12)
 		(end 0.64 -1.12)
 		(stroke
 			(width 0.12)

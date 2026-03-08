@@ -1,0 +1,237 @@
+(footprint "Diplexer_Johanson_1224DP15A1572001x_UpsideDown"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "6-pin 2.0 x 1.2mm Reverse mounted SAW filter package, https://www.mouser.jp/datasheet/3/1017/1/Diplexer_1224DP15A1572001E_Rev1.0.pdf")
+	(tags "SAW filter diplexer duplexer 6-pin 1224DP15A1572001E 1224DP15A1572001B")
+	(property "Reference" "REF**"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1de1bc49-8572-4ce5-8c81-846fd611de2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Diplexer_Johanson_1224DP15A1572001x_UpsideDown"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b8a4dcf7-5b59-404b-9bef-a91b67bcac20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64ab3fa8-80fd-4ac0-a50d-15e10af3759e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "060a8dd2-50d7-4116-953a-8ae0c1c183a2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.1 0.5)
+		(end -1.1 -0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "163ace93-de5f-4c62-8b4c-acec03027212")
+	)
+	(fp_line
+		(start 1.1 0.5)
+		(end 1.1 -0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "88374507-9da8-4435-a95d-de1f914ff834")
+	)
+	(fp_poly
+		(pts
+			(xy -1.1 0.7) (xy -1.1 0.98) (xy -1.38 0.7) (xy -1.1 0.7)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "8ab64bbc-ed02-4e64-85da-17624e7fe475")
+	)
+	(fp_line
+		(start -1.5 -1)
+		(end 1.5 -1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1cd9c264-f4eb-40c9-90f1-81b6f1cfdc71")
+	)
+	(fp_line
+		(start -1.5 1)
+		(end -1.5 -1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "45ce2771-6e2f-48cb-8539-6fffbd4d9905")
+	)
+	(fp_line
+		(start 1.5 -1)
+		(end 1.5 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "98f78c79-d96f-4962-aba8-239f047f6391")
+	)
+	(fp_line
+		(start 1.5 1)
+		(end -1.5 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "15235c90-1a5b-4928-956b-042e9385159b")
+	)
+	(fp_line
+		(start -1 0.6)
+		(end -1 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "916e865e-ebc4-44b1-b579-b608230fe188")
+	)
+	(fp_line
+		(start 1 -0.6)
+		(end -1 -0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "206ee7e2-e94a-4c92-abe5-4b681a721099")
+	)
+	(fp_line
+		(start 1 0.6)
+		(end -1 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6a0be9c6-e719-41a3-a3d1-758dbdbe7c8a")
+	)
+	(fp_line
+		(start 1 0.6)
+		(end 1 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1bedddf7-abf7-4d7f-b117-4e91ac807951")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e54a2e6f-9ba2-4787-9f9f-e10898c7dc85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.65 0.5525 270)
+		(size 0.46 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "1cf28990-09c3-4297-9a45-1359fdc36038")
+	)
+	(pad "2" smd rect
+		(at 0 0.5525 270)
+		(size 0.46 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "c8f65686-5756-4f81-a752-4844e12e0a4a")
+	)
+	(pad "3" smd rect
+		(at -0.65 0.5525 270)
+		(size 0.46 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "761edd2b-0a89-4830-bfac-f089d8bb4013")
+	)
+	(pad "4" smd rect
+		(at -0.65 -0.5525 270)
+		(size 0.46 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "06b09ead-c6f4-446a-aec4-e3abbe12554a")
+	)
+	(pad "5" smd rect
+		(at 0 -0.5525 270)
+		(size 0.46 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "9718246e-d44d-416c-a90b-63675643d43a")
+	)
+	(pad "6" smd rect
+		(at 0.65 -0.5525 270)
+		(size 0.46 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "aab867d4-4f99-4c11-86bc-89f782c53782")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_LIB_DIR}/Lib/Filter_extlib/Diplexer_Johanson_1224DP15A1572001x.stp"
+		(offset
+			(xyz 0 0 0.9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -0)
+		)
+	)
+)
