@@ -1,10 +1,10 @@
 (footprint "Filter_SAW-8_3.0x3.0mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "8-pin 3.0 x 3.0mm SAW filter package, https://www.taisaw.com/assets/PDF/TE0133B%20_Rev.1.0_.pdf")
-	(tags "SAW filter diplexer duplexer 8-pin TE0133B")
+	(descr "8-pin 3.0x3.0mm SAW filter package, https://www.taisaw.com/assets/PDF/TE0133B%20_Rev.1.0_.pdf")
+	(tags "SAW filter diplexer duplexer TE0133B")
 	(property "Reference" "REF**"
 		(at 0 3 0)
 		(unlocked yes)
@@ -25,19 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 8.5 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "05c4cbde-8bd0-4766-9fba-5d7c11544ddb")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -147,7 +134,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "26e78e0b-47fb-4fd8-953a-e1d6301a1c01")
 	)
@@ -246,51 +233,52 @@
 	(pad "1" smd rect
 		(at -1.125 -1.2)
 		(size 0.95 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "924abaeb-7047-4f78-bd5a-e885c0e140c6")
 	)
 	(pad "2" smd rect
 		(at -1.125 0)
 		(size 0.95 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "48b97e4a-c628-42be-b537-8b34f4f71f22")
 	)
 	(pad "3" smd rect
 		(at -1.125 1.2)
 		(size 0.95 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "90f7fbe4-8245-4a51-b426-80b1c4f1c219")
 	)
 	(pad "4" smd rect
 		(at 0 1.125 90)
 		(size 0.95 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f62dfc31-acaa-43b2-8055-4fa9b5e50b3e")
 	)
 	(pad "5" smd rect
 		(at 1.125 1.2)
 		(size 0.95 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a250d383-3559-4a28-ae6c-e5113f6e614a")
 	)
 	(pad "6" smd rect
 		(at 1.125 0)
 		(size 0.95 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f5caf0b0-82c9-47b3-9c18-6cb964eaa8a6")
 	)
 	(pad "7" smd rect
 		(at 1.125 -1.2)
 		(size 0.95 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cf1ee94a-529c-49ab-95bd-235070c5f796")
 	)
 	(pad "8" smd rect
 		(at 0 -0.9 90)
 		(size 1.4 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6b68b677-1e5a-4c6a-b4c8-35cd509dae51")
 	)
+	(embedded_fonts no)
 	(model "${KICAD_USER_LIB_DIR}/Lib/Filter_extlib/Filter_SAW-6_3.0x3.0mm.stp"
 		(offset
 			(xyz 0 0 0)

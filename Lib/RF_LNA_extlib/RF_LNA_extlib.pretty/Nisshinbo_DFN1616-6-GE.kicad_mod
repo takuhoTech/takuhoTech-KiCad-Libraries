@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "1.6 x 1.6mm Wettable Flank Package for AOI, https://www.nisshinbo-microdevices.co.jp/ja/design-support/package/dfn1616-6-ge.html")
+	(descr "1.6x1.6mm Wettable Flank Package for AOI, https://www.nisshinbo-microdevices.co.jp/ja/design-support/package/dfn1616-6-ge.html")
 	(tags "GNSS LNA NT1191GEAE3S")
 	(property "Reference" "REF**"
 		(at 0 -3.5 0)

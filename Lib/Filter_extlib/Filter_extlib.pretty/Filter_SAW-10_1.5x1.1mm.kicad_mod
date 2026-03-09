@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "10-pin 1.5 x 1.1mm SAW filter package, https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5731/TE0149A.pdf")
-	(tags "SAW filter diplexer duplexer 10-pin TE0149A")
+	(descr "10-pin 1.5x1.1mm SAW filter package, https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5731/TE0149A.pdf")
+	(tags "SAW filter diplexer duplexer TE0149A")
 	(property "Reference" "REF**"
 		(at 0 1.5 0)
 		(unlocked yes)

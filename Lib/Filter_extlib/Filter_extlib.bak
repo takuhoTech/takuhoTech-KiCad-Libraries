@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low Pass/High pass LC Diplexer, 2.0x1.2mm"
+		(property "Description" "LowPass/HighPass LTCC Diplexer, 2.0x1.2mm"
 			(at 0 20.32 0)
 			(effects
 				(font
@@ -49,7 +49,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "SAW Diplexer Duplexer Filter GPS GNSS 1224DP15A1572001E 1224DP15A1572001B"
+		(property "ki_keywords" "LTCC LC filter diplexer duplexer GPS GNSS 1224DP15A1572001E 1224DP15A1572001B"
 			(at 0 0 0)
 			(effects
 				(font
@@ -361,7 +361,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "SAW Bandpass Filter GPS GNSS L5 L2 L6 Qualcomm"
+		(property "ki_keywords" "SAW bandpass filter GPS GNSS L5 L2 L6 Qualcomm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -620,7 +620,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "SAW Bandpass Filter GPS GNSS L1 Qualcomm"
+		(property "ki_keywords" "SAW bandpass filter GPS GNSS L1 Qualcomm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1148,7 +1148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1164-1214, 1559-1606MHz SAW Diplexer, 3.0x3.0mm"
+		(property "Description" "1164-1214/1559-1606MHz SAW Diplexer, 3.0x3.0mm"
 			(at 0 20.32 0)
 			(effects
 				(font
@@ -1157,7 +1157,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "SAW Diplexer Duplexer Filter GPS GNSS L1 L5 TST"
+		(property "ki_keywords" "SAW filter diplexer duplexer GPS GNSS L1 L5 TST"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1570,7 +1570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1166-1186, 1559-1611MHz SAW Diplexer, 1.5x1.1mm"
+		(property "Description" "1166-1186/1559-1611MHz SAW Diplexer, 1.5x1.1mm"
 			(at 0 20.32 0)
 			(effects
 				(font
@@ -1579,7 +1579,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "SAW Diplexer Duplexer Filter GPS GNSS L1 L5 TST"
+		(property "ki_keywords" "SAW filter diplexer duplexer GPS GNSS L1 L5 TST"
 			(at 0 0 0)
 			(effects
 				(font

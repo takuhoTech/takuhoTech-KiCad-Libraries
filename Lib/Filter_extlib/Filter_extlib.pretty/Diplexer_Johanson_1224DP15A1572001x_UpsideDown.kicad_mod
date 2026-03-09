@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "6-pin 2.0 x 1.2mm Reverse mounted SAW filter package, https://www.mouser.jp/datasheet/3/1017/1/Diplexer_1224DP15A1572001E_Rev1.0.pdf")
-	(tags "SAW filter diplexer duplexer 6-pin 1224DP15A1572001E 1224DP15A1572001B")
+	(descr "6-pin 2.0x1.2mm Reverse mounted LTCC filter package, https://www.mouser.jp/datasheet/3/1017/1/Diplexer_1224DP15A1572001E_Rev1.0.pdf")
+	(tags "LTCC LC filter diplexer duplexer 1224DP15A1572001E 1224DP15A1572001B")
 	(property "Reference" "REF**"
 		(at 0 2 0)
 		(unlocked yes)

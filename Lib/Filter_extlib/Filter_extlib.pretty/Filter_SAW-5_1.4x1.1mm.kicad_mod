@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "5-pin 1.4 x 1.1mm SAW filter package, https://www.mouser.com/catalog/specsheets/Qualcomm_B2642.pdf")
-	(tags "SAW filter diplexer duplexer 5-pin SF14 B2642")
+	(descr "5-pin 1.4x1.1mm SAW filter package, https://www.mouser.com/catalog/specsheets/Qualcomm_B2642.pdf")
+	(tags "SAW filter diplexer duplexer SF14 B2642")
 	(property "Reference" "REF**"
 		(at 0 2 0)
 		(layer "F.SilkS")

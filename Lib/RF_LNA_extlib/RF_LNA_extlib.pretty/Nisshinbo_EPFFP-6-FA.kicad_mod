@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "0.7 x 1.1mm Package, https://www.nisshinbo-microdevices.co.jp/ja/design-support/package/epffp6-fa.html")
+	(descr "0.7x1.1mm Package, https://www.nisshinbo-microdevices.co.jp/ja/design-support/package/epffp6-fa.html")
 	(tags "GNSS LNA NT1195FAAE2S NT1192FAAE1S NT1193FAAE2S EPFFP6-X2 NJG1155UX2")
 	(property "Reference" "REF**"
 		(at 0 -3 0)
